@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to the KuriRobot Documentation Repository
 
-You can use the [editor on GitHub](https://github.com/KuriRobot/documentation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can use the [editor on GitHub](https://github
+.com/KuriRobot/documentation/edit/master/README.md) to maintain and preview 
+the content for your website in Markdown files, or edit Markdown files in 
+your favorite editor.
 
 ### Markdown
 
@@ -28,10 +29,17 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Special Mayfield Markdown
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KuriRobot/documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In the future, we will support cross-linking in documentation, along with 
+search. To link to other documenation, simply surround 
+the name of the target with double back ticks:
+```
+``audio_voice_delegate`` or ``Awake.msg``
+```
 
-### Support or Contact
+Targets are generally titles specified in front matter in reference 
+documentation, or headers (`# Header`, `## Header`, `### Header`, etc) in 
+guides. 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Questions? Discuss in the [edu-documentation channel](https://mayfieldrobotics.slack.com/app_redirect?channel=edu-documentation)
