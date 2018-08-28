@@ -17,15 +17,15 @@ ${usage}
 ``${node}``  
 ``${node}``  
 
-### Action Topics
-``${topic}``  
-``${topic}``  
+### Action Messages
+``${action}``  
+``${action}``  
 
-## Services
-``${service}``  
-``${service}``  
+## Service Messages
+``${srv}``  
+``${srv}``  
 
 ## Messages
-``${message}``  
-``${message}``  
-``${message}``  
+``${msg}``  
+``${msg}``  
+``${msg}``  
