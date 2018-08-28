@@ -51,7 +51,6 @@ def process_nodes():
             name.replace('_', '-')
         )
         with open(filename, 'w') as f:
-            print s
             f.write(s.safe_substitute(node=name))
 
         t = Template(node_template)
@@ -62,6 +61,20 @@ def process_nodes():
             f.write(t.safe_substitute(node=name))
 
 
+def process_packages():
+    with open('templates/packages.txt', 'r') as f:
+        packages = f.read().splitlines()
+    with open('templates/package-template.md', 'r') as f:
+        package_template = f.read()
+    for name in packages:
+        s = Template(package_template)
+        filename = "reference/ros-packages/{}.md".format(
+            name.replace('_', '-')
+        )
+        with open(filename, 'w') as f:
+            f.write(s.safe_substitute(package=name))
+
+
 def process_services():
     with open('templates/services.txt', 'r') as f:
         services = f.read().splitlines()
@@ -70,7 +83,7 @@ def process_services():
     for name in services:
         s = Template(service_template)
         service_name = name.rsplit('/', 1)[1] if '/' in name else name
-        filename = "reference/ros-nodes/services/{}.md".format(
+        filename = "reference/ros-services/{}.md".format(
             name.replace("/", "", 1).replace("/", "-").replace("_", "-")
         )
         with open(filename, 'w') as f:
@@ -85,7 +98,7 @@ def process_topics():
     for name in topics:
         s = Template(topic_template)
         topic_name = name.rsplit('/', 1)[1] if '/' in name else name
-        filename = "reference/ros-nodes/topics/{}.md".format(
+        filename = "reference/ros-topics/{}.md".format(
             name.replace("/", "", 1).replace("/", "-").replace("_", "-")
         )
         with open(filename, 'w') as f:
@@ -93,12 +106,14 @@ def process_topics():
 
 
 for path in ["reference", "reference/ros-launch-files",
-             "reference/ros-nodes", "reference/ros-nodes/services",
-             "reference/ros-nodes/topics", "reference/ros-messages",
-             "reference/ros-messages/msg", "reference/ros-messages/srv"]:
+             "reference/ros-nodes", "reference/ros-services",
+             "reference/ros-topics", "reference/ros-messages",
+             "reference/ros-messages/msg", "reference/ros-messages/srv",
+             "reference/ros-packages"]:
     if not os.path.exists(path):
         os.mkdir(path)
 
+process_packages()
 process_nodes()
 process_services()
 process_topics()
