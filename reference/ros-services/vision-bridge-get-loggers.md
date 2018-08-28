@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision_bridge/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

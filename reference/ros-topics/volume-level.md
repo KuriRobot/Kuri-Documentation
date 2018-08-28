@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /volume/level
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

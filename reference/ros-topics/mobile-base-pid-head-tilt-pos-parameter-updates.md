@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/pid/head_tilt_pos/parameter_updates
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

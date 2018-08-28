@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/tf2_web_republisher/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

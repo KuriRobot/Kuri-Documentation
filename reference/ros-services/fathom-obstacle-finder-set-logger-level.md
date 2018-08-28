@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /fathom_obstacle_finder/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

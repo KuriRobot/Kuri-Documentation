@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /image_wp_server/waypoint_update
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

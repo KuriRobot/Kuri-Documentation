@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice_delegate/deafen
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

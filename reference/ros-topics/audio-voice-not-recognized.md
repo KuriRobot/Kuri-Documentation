@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice/not_recognized
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /eyelids_controller/follow_joint_trajectory/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

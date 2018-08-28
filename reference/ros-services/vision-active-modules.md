@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision/active_modules
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

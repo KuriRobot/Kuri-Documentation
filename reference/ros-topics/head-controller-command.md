@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /head_controller/command
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /joint_states
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

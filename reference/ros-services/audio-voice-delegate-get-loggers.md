@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio_voice_delegate/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

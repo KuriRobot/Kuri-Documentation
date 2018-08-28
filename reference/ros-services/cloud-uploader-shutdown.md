@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cloud_uploader/shutdown
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

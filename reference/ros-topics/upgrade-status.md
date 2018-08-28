@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /upgrade/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

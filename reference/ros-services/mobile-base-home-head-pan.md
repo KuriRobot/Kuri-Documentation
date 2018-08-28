@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/home_head_pan
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

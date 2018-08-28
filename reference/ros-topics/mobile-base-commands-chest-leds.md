@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/commands/chest_leds
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

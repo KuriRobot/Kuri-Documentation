@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /system_diagnostics/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

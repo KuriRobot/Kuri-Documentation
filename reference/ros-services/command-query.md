@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /command/query
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

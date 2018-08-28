@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /fathom_obstacle_finder/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

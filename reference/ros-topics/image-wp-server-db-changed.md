@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /image_wp_server/db_changed
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

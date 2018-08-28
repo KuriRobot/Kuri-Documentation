@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

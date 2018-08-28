@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/dock_pose
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /head_teleop
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

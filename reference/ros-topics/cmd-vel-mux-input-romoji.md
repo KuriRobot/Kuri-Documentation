@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cmd_vel_mux/input/romoji
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

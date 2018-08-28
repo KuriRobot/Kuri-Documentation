@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/graph_loc/list_namespaces
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_webrtc/gizmo_webrtc_flubnub/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

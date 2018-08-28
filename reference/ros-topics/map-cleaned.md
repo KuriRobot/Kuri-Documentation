@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /map_cleaned
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

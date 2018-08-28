@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /initialpose
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

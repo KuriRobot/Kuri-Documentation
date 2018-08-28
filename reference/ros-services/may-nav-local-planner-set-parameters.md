@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/local_planner/set_parameters
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

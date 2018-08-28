@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /scan
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

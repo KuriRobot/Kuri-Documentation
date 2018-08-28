@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt/connected
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

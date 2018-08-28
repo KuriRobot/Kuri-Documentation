@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: GetBool.srv
-category: service-messages
+category: service-message
 tags: 
 - ${tag}
 - ${tag} 

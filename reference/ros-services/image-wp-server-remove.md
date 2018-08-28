@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /image_wp_server/remove
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

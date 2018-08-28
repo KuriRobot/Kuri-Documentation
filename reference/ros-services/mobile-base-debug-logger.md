@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/debug_logger
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

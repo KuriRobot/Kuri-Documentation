@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /following_global_plan/trajectories/markers
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

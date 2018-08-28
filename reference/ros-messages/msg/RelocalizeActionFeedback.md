@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: RelocalizeActionFeedback.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

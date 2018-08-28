@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /depthscan/depth_image
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

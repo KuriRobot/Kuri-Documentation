@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /diagnostics_agg/add_diagnostics
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

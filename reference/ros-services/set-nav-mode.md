@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /set_nav_mode
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

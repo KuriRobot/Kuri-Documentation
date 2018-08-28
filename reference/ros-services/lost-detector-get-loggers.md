@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /lost_detector/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/robot_pose_publisher/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

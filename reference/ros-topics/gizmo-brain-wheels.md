@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_brain/wheels
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

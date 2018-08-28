@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /ros_beat/detection
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

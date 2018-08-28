@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_amcl_pose
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

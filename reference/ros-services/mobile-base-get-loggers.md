@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

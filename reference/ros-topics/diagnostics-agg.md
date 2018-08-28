@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /diagnostics_agg
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /depthscan/active
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

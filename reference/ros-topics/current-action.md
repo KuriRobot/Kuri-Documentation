@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /current_action
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

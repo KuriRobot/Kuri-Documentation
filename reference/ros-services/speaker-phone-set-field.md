@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /speaker_phone/set_field
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

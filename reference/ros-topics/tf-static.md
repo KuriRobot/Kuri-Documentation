@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /tf_static
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

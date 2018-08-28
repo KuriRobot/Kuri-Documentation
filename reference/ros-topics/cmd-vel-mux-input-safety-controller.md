@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cmd_vel_mux/input/safety_controller
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

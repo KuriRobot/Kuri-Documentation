@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /robot_footprint
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

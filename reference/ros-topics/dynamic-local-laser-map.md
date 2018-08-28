@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /dynamic_local_laser_map
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

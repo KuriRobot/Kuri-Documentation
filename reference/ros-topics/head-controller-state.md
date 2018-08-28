@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /head_controller/state
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

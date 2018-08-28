@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice/recognized
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

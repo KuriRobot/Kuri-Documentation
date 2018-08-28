@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/pwr_btn_led
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

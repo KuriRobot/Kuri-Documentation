@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt/outgoing
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

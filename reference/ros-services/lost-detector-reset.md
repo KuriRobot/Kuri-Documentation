@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /lost_detector/reset
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

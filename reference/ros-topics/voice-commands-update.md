@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /voice_commands/update
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

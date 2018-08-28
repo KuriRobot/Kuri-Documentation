@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/name
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

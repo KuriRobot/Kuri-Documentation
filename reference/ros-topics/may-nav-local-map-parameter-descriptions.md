@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/local_map/parameter_descriptions
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

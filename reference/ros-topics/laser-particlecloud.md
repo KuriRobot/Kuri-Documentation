@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_particlecloud
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision/get_config
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

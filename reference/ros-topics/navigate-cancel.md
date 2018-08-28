@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /navigate/cancel
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

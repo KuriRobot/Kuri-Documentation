@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt/status
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

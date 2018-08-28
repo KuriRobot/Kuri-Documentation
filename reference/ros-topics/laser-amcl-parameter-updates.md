@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_amcl/parameter_updates
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

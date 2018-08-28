@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /navigate/feedback
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

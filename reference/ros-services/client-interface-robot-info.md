@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/robot_info
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

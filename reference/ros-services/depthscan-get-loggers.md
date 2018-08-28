@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /depthscan/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

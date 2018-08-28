@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_webrtc/yawlbridge_49fb3a86_a915_422e_b1fc_543f80bfe5ba/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: SetField.srv
-category: service-messages
+category: service-message
 tags: 
 - ${tag}
 - ${tag} 

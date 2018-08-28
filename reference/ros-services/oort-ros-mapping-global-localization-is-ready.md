@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/global_localization/is_ready
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

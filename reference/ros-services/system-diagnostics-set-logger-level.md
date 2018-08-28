@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /system_diagnostics/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

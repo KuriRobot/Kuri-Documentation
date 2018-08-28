@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /volume/hw_set
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/global_planner/parameter_updates
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

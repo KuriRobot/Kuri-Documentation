@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /image_wp_server/load
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

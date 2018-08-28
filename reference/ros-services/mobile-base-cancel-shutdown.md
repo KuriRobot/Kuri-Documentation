@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/cancel_shutdown
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

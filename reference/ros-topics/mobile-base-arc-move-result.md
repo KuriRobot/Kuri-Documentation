@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/arc_move/result
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

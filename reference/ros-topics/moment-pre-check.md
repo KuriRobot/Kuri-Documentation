@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /moment/pre_check
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

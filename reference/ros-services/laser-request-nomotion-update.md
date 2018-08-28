@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_request_nomotion_update
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

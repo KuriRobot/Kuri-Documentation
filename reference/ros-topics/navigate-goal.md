@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /navigate/goal
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

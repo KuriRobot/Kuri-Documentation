@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /rotating_to_global_plan/trajectories/scored_trajectories
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

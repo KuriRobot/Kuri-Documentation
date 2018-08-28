@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/local_planner/parameter_descriptions
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

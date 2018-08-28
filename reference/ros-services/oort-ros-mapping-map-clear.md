@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/clear
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

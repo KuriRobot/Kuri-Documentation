@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/graph_loc/locate
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_global_localization
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

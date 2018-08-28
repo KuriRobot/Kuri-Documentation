@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: GetMap.srv
-category: service-messages
+category: service-message
 tags: 
 - ${tag}
 - ${tag} 

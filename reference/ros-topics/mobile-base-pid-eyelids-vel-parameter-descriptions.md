@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/pid/eyelids_vel/parameter_descriptions
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

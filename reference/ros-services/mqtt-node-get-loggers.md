@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt_node/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

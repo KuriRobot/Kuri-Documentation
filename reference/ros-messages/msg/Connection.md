@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Connection.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

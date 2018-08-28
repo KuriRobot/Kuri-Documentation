@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: RomojiGoal.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

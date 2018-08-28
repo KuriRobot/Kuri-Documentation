@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/req_next_track
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

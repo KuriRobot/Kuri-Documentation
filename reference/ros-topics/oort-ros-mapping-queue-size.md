@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/queue_size
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_brain/tf2_frames
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /command
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

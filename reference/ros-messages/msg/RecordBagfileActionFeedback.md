@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: RecordBagfileActionFeedback.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

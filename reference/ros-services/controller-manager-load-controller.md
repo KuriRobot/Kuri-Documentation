@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /controller_manager/load_controller
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

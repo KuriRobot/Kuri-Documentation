@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bounding_grid
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

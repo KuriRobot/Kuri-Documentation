@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/robot_pose_publisher/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision/cmds
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

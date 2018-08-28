@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice_delegate/awake
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

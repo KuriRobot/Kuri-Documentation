@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /triggers
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

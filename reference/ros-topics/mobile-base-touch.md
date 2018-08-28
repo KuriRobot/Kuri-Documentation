@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/touch
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

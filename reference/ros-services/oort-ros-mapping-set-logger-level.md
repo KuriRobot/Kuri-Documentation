@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

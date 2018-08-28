@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/republish_tfs
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

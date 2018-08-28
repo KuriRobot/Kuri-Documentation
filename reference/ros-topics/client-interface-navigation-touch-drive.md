@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/navigation/touch_drive
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

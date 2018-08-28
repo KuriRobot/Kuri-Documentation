@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /teleop_velocity_smoother/raw_cmd_vel
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

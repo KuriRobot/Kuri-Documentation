@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cloud
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

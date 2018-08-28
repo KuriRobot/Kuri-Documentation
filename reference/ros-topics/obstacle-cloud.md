@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /obstacle_cloud
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

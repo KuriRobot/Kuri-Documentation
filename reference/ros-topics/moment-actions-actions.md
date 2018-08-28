@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /moment_actions/actions
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

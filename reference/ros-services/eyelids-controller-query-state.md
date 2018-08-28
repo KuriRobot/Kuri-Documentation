@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /eyelids_controller/query_state
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

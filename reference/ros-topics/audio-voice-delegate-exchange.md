@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice_delegate/exchange
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

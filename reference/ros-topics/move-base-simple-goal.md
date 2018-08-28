@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /move_base_simple/goal
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

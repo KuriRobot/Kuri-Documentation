@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /controller_manager/switch_controller
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

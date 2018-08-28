@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /audio/voice_delegate/snooze
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

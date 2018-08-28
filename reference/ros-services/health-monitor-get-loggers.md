@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /health_monitor/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /depthscan/cliff_cloud
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

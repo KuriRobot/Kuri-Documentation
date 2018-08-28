@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /head_controller/follow_joint_trajectory/feedback
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

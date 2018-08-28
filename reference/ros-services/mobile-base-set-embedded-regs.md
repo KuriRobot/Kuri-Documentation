@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/set_embedded_regs
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

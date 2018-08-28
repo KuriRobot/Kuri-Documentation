@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

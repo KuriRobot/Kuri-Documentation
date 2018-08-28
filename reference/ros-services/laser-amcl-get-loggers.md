@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_amcl/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

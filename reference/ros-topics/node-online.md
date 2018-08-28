@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /node_online
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

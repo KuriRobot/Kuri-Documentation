@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/notify_docked
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

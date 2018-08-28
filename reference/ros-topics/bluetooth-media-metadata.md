@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/media_metadata
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

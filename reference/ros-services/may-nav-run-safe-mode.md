@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/run_safe_mode
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

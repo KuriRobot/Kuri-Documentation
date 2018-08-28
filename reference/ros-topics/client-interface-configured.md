@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/configured
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

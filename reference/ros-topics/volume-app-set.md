@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /volume/app_set
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

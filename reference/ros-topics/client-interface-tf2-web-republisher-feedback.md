@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/tf2_web_republisher/feedback
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

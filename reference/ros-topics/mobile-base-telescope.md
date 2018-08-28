@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/telescope
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

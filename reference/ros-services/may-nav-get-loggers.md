@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

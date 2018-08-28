@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/safety_clear
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

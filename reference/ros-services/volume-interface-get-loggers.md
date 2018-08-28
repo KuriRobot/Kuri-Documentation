@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /volume_interface/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

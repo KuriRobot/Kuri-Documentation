@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/map
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

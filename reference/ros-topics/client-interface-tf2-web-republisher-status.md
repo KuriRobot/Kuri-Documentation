@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/tf2_web_republisher/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

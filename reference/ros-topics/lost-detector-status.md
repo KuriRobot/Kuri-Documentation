@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /lost_detector/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

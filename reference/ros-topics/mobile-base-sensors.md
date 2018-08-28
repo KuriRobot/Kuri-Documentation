@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/sensors
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

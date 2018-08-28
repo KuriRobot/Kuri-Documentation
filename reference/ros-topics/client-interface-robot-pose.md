@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/robot_pose
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/power
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

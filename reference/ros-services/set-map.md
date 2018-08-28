@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /set_map
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

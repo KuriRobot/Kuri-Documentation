@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/media_playing
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

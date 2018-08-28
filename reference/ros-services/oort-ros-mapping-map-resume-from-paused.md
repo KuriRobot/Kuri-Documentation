@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/resume_from_paused
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

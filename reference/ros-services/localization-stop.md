@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /localization_stop
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /navigate/status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

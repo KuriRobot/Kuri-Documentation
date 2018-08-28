@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/pid/head_pan_pos/set_parameters
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

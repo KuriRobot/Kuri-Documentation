@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/pair_status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

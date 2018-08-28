@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /command/cmd_ack
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

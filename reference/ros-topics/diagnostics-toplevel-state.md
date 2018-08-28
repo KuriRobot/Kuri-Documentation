@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /diagnostics_toplevel_state
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

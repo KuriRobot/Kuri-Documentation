@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /initialpose_cloud
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

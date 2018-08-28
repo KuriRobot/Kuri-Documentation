@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt/online
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

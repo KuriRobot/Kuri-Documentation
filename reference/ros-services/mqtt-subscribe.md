@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mqtt/subscribe
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/romoji/feedback
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

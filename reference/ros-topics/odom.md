@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /odom
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

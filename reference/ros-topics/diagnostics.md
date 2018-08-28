@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /diagnostics
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

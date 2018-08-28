@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/req_pair_mode
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

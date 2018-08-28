@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bluetooth/req_disconnect
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

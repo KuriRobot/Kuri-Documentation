@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cmd_vel_mux/input/navi
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

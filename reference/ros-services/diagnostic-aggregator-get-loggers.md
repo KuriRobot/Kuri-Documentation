@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /diagnostic_aggregator/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

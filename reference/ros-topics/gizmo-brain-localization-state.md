@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_brain/localization_state
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

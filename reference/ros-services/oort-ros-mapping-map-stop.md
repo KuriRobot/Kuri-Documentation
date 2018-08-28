@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/stop
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

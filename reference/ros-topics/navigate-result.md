@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /navigate/result
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

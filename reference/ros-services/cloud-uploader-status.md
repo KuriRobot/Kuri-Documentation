@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cloud_uploader/status
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision/results
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

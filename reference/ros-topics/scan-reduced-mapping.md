@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /scan_reduced_mapping
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/pid/right_wheel/set_parameters
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

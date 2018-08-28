@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /scan_reduced_nav
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/global_planner/set_parameters
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

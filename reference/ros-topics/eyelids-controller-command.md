@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /eyelids_controller/command
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

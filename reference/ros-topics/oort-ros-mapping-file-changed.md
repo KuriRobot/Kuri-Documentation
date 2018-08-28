@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/file_changed
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

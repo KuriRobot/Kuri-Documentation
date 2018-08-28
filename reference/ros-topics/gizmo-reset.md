@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_reset
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

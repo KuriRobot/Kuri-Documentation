@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: CreateDataChannel.srv
-category: service-messages
+category: service-message
 tags: 
 - ${tag}
 - ${tag} 

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bt_speaker_agent/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

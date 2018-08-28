@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /robot_parameters_node/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

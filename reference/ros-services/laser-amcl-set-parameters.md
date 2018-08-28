@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /laser_amcl/set_parameters
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

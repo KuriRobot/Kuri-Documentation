@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Motor.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

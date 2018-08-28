@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /amcl_adjusted_scans
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /bagfile_recorder/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /controller_manager/reload_controller_libraries
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

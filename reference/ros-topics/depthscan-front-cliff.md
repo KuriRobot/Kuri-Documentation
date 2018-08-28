@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /depthscan/front_cliff
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

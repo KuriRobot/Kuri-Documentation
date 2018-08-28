@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /client_interface/filtered_battery_status
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

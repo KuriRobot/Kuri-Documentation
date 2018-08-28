@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /head_controller/query_state
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

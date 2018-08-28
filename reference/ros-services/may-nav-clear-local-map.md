@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /may_nav/clear_local_map
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

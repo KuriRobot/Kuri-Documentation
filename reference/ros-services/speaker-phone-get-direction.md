@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /speaker_phone/get_direction
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

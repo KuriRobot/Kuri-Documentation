@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /upgrade/can_upgrade
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

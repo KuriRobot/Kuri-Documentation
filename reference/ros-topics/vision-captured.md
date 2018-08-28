@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision/captured
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

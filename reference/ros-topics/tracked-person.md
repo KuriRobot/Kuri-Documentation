@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /tracked_person
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

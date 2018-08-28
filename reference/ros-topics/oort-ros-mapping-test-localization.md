@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/test_localization
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /cloud_uploader_node/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /robot_state_publisher/get_loggers
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

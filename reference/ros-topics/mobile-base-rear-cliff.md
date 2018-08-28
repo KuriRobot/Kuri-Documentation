@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/rear_cliff
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

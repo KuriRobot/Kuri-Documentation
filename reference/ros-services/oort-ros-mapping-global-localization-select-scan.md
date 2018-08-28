@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/global_localization/select_scan
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

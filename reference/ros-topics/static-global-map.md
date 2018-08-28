@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /static_global_map
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

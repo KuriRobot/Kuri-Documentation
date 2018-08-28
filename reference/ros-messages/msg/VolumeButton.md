@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: VolumeButton.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/arm_shutdown
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

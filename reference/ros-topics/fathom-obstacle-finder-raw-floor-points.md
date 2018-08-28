@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /fathom_obstacle_finder/raw_floor_points
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

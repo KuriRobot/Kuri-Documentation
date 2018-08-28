@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /rosout_agg
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

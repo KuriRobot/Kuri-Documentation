@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_brain/bump
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

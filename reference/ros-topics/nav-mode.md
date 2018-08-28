@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /nav_mode
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

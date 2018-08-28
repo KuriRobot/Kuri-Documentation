@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: ObjectFeatures.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

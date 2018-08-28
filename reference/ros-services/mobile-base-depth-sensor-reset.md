@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/depth_sensor_reset
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

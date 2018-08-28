@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/arc_move/cancel
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

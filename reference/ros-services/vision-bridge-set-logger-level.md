@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /vision_bridge/set_logger_level
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

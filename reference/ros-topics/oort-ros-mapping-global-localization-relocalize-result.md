@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/global_localization/relocalize/result
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /shutdown
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

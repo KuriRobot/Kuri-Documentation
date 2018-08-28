@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /global_plan
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/battery_state
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

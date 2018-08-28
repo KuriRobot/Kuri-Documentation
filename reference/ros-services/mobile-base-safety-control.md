@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /mobile_base/safety_control
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

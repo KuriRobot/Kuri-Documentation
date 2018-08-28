@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /localization_start
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}

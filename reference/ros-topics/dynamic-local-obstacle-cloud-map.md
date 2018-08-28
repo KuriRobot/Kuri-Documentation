@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /dynamic_local_obstacle_cloud_map
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

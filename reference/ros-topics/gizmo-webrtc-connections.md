@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /gizmo_webrtc/connections
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---

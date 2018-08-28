@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: /oort_ros_mapping/map/num_nodes
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}
