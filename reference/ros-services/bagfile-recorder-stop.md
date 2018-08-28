@@ -3,40 +3,39 @@ layout: reference
 title: /bagfile_recorder/stop
 category: service
 tags: 
-- ${tag} 
-- ${tag}
+- bagfile_recorder 
 ---
 
 ## Description
-${description}
+Service to call to stop the bagfile recorder (it is off by default).
 
 ## Usage
 #### Console
 ```
-rosservice call /bagfile_recorder/stop ${arguments}
+rosservice call /bagfile_recorder/stop
 ```
 
 #### rospy
 ```
-stop_srv = rospy.ServiceProxy("/bagfile_recorder/stop", ${message}, 1)
+import rospy
+import std_srvs.srv
+
+stop_srv = rospy.ServiceProxy(
+    "/bagfile_recorder/stop",
+    std_srvs.srv.Empty,
+)
 stop_srv()
 ```
 
 #### roscpp
 ```
-ros::ServiceClient client = nh.serviceClient${message}("/bagfile_recorder/stop");
-${message} msg;
-...
-if (client.call(msg))
+ros::ServiceClient client = nh.serviceClient<std_srv::Empty>("/bagfile_recorder/stop");
+std_srv::Empty srv;
+if (client.call(srv))
 {
-    cout << "Service responded with message";
+    cout << "Service responded";
 }
 ```
 
 ## Response
-```
-${paste the response from calling the service on the console}
-```
-
-## Related Documentation
-``${message}``  
+```{}```
