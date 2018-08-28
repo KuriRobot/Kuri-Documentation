@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: BatteryCapacity.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

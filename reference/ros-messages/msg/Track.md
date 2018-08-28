@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Track.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

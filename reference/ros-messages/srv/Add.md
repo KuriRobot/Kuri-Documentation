@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Add.srv
-category: service-messages
+category: service-message
 tags: 
 - ${tag}
 - ${tag} 
@@ -20,4 +20,4 @@ ${description}
 ${description}
 
 ## Related Documentation
-``${name of associated service}``
+``${name of associated service}``  

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Bumper.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: NavigateActionGoal.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}

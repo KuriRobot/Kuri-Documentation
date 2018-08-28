@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: ArcMoveResult.msg
-category: messages
+category: message
 tags: 
 - ${tag}
 - ${tag}
