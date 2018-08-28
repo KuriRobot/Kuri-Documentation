@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: ${topic}
-category: topics
+category: topic
 tags: 
 - ${tag}
 ---
@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("${topic}", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

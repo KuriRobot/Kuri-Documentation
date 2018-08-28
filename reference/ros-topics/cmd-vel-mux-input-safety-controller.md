@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/cmd_vel_mux/input/safety_controller", 1, ${
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

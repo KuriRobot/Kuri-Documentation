@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/laser_amcl_pose", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/mobile_base/commands/wheel_traj", 1, ${call
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

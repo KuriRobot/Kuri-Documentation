@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/mobile_base/stall", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/image_wp_server/waypoint_update", 1, ${call
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

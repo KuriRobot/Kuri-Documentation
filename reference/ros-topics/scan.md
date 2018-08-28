@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/scan", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

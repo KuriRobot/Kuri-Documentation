@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/nav_mode", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

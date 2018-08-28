@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/bluetooth/media_metadata", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/bluetooth/req_connect", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

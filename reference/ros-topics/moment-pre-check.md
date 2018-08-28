@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/moment/pre_check", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

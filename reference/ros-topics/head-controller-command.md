@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/head_controller/command", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

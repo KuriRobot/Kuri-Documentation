@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/gizmo_brain/wheels", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

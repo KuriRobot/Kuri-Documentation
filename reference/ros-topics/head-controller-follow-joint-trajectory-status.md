@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/head_controller/follow_joint_trajectory/sta
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

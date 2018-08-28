@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/obstacle_cloud", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

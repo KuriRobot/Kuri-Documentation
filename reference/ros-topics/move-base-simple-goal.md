@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/move_base_simple/goal", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/global_plan", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

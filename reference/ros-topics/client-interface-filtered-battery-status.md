@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/filtered_battery_status", 
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

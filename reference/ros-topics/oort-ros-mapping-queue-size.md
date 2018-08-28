@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/oort_ros_mapping/queue_size", 1, ${callback
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

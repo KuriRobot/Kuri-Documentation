@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/oort_ros_mapping/test_localization", 1, ${c
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

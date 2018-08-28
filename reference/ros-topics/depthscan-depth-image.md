@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/depthscan/depth_image", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

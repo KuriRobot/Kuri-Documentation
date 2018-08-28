@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/volume/duck_set", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

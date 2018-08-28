@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/mqtt/outgoing", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

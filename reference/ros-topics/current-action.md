@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/current_action", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

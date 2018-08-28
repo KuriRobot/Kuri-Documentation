@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/rosout_agg", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

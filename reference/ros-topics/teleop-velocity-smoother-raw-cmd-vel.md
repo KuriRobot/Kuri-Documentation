@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/teleop_velocity_smoother/raw_cmd_vel", 1, $
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

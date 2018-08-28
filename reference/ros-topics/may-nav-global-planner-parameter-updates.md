@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/may_nav/global_planner/parameter_updates", 
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

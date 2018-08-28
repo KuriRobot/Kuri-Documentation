@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/robot_footprint", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

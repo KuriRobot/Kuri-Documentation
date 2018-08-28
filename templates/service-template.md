@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: ${service}
-category: services
+category: service
 tags: 
 - ${tag} 
 - ${tag}
@@ -39,4 +39,4 @@ ${paste the response from calling the service on the console}
 ```
 
 ## Related Documentation
-``${message}``
+``${message}``  

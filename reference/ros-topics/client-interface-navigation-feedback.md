@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/navigation/feedback", 1, $
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

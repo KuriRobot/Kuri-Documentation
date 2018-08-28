@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/robot_pose", 1, ${callback
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

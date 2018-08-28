@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/configured", 1, ${callback
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

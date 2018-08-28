@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/command/cmd_ack", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

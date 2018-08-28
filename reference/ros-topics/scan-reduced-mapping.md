@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/scan_reduced_mapping", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

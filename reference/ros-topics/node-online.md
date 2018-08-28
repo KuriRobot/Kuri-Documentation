@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/node_online", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

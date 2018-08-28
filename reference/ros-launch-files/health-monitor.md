@@ -22,9 +22,5 @@ ${description}
 #### `${argument_name}`
 ${description}
 
-## ROS Parameters
-``${full param path}``  
-``${full param path}``  
-
-## Related Documentation
+## ROS Node
 ``health_monitor``

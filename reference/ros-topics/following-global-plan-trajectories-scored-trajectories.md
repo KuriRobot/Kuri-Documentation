@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/following_global_plan/trajectories/scored_t
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

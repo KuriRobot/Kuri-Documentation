@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/gizmo_brain/nav_sessions", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

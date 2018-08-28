@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/amcl_adjusted_scans", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

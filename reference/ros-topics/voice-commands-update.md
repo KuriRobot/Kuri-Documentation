@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/voice_commands/update", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

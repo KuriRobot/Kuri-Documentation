@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/eyelids_controller/follow_joint_trajectory/
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

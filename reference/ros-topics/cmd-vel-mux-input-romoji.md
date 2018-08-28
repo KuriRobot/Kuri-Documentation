@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/cmd_vel_mux/input/romoji", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/gizmo_brain/localization_state", 1, ${callb
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

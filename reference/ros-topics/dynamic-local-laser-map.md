@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/dynamic_local_laser_map", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

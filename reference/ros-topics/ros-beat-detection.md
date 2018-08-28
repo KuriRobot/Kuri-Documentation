@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/ros_beat/detection", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

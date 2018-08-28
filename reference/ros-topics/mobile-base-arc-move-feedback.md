@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/mobile_base/arc_move/feedback", 1, ${callba
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

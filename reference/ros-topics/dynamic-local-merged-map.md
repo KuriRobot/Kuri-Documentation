@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/dynamic_local_merged_map", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/mqtt/online", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

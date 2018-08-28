@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/bounding_grid", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

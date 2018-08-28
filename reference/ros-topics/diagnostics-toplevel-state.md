@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/diagnostics_toplevel_state", 1, ${callback}
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

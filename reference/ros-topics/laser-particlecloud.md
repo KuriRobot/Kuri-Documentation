@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/laser_particlecloud", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

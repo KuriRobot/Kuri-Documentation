@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/head_teleop", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/audio/voice/wake", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

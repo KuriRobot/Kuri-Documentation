@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/romoji/feedback", 1, ${cal
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

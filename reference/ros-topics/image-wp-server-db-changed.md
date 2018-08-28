@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/image_wp_server/db_changed", 1, ${callback}
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

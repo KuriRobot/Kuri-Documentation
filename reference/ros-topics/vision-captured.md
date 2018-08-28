@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/vision/captured", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

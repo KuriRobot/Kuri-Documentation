@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/filtered_joint_states", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

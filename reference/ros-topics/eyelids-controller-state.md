@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/eyelids_controller/state", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

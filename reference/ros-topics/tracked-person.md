@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/tracked_person", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

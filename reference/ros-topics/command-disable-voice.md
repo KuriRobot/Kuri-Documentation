@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/command/disable_voice", 1, ${callback});
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  

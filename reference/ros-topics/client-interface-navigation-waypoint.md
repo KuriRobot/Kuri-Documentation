@@ -32,4 +32,4 @@ ros::Subscriber sub = nh.subscribe("/client_interface/navigation/waypoint", 1, $
 ```
 
 #### Related Documentation
-``${message}``
+``${message}``  
