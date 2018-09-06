@@ -3,29 +3,13 @@ layout: reference
 title: fathom_cloud_processor
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- depth sensor
+- obstacle detection
+- point cloud
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
+Package containing the ``fathom_obstacle_finder`` node.
 
 ## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``fathom_obstacle_finder``  
