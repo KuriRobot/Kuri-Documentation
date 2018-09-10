@@ -24,6 +24,7 @@ mayfield_msgs
 mayfield_utils
 mayvision_py
 mobile_base_driver
+obstacle_detector
 oort
 oort_msgs
 ros_beat
@@ -33,3 +34,4 @@ vision_bridge
 vision_msgs
 xmos_linux_tools
 yawl
+

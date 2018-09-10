@@ -4,6 +4,7 @@ bagfile_recorder
 bt_speaker_agent
 client_interface/robot_pose_publisher
 client_interface/tf2_web_republisher
+clothesline_obstacle_detector
 cloud_uploader_node
 depthscan
 diagnostic_aggregator

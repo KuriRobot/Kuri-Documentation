@@ -82,6 +82,7 @@ mobile_base_driver/Touch
 mobile_base_driver/WheelDrop
 mobile_base_driver/WheelTraj
 mobile_base_driver/WheelTrajPoint
+obstacle_detector/ClotheslineObstacle
 oort_msgs/RelocalizeAction
 oort_msgs/RelocalizeActionFeedback
 oort_msgs/RelocalizeActionGoal
