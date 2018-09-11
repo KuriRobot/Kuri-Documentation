@@ -3,29 +3,23 @@ layout: reference
 title: vision_bridge
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- vision
 ---
 
 ## Overview
-${overview}
+Package containing the vision_bridge node.
 
 ## Usage
-${usage}
+
 
 ## Nodes
-``${node}``  
-``${node}``  
+``vision_bridge_node``  
 
 ### Action Messages
-``${action}``  
-``${action}``  
+None
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
+Contained in vision_msgs package.
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+Contained in vision_msgs package.

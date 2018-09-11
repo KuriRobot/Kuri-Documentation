@@ -3,29 +3,35 @@ layout: reference
 title: vision_msgs
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- vision
+- ros-messages
 ---
 
 ## Overview
-${overview}
+Package containing vision specific messages.
 
 ## Usage
-${usage}
+NA
 
 ## Nodes
-``${node}``  
-``${node}``  
+None
 
 ### Action Messages
-``${action}``  
-``${action}``  
+None
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
+``srv/VisionCmds``
+``srv/VisionQuery``
+``srv/VisionActiveModules``
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``msg/Face``
+``msg/FaceArray``
+``msg/ClassifiedObject``
+``msg/ClassifiedObjects``
+``msg/DetectedObjects``
+``msg/ImageClustering``
+``msg/ImageQuality``
+``msg/ImageClustering``
+``msg/ObjectFeatures``
+``msg/VisionCmdMsg``   
