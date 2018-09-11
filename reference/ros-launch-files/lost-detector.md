@@ -1,26 +1,26 @@
 ---
 layout: reference
-title: lost_detector.launch
+title: lost_detector pylaunch
 category: launch
 tags: 
-- ${tag}
-- ${tag}
+- lost detector
+- amcl
+- localization
 ---
 
 ## Launch File Definition
+The lost detector is launched using ``pylaunch``, with the config being generated in `gizmo/app/src/app_bringup/gizmo_launch.py`:
 ```
-${launch file}
+def lost_detector_launch():
+    return [
+        pl.Node('gizmo',
+                'lost_detector_node',
+                'lost_detector',
+                respawn=True,
+                respawn_delay=2.0)
+    ]
+
 ```
-
-## Arguments
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
 
 ## ROS Node
 ``lost_detector``
