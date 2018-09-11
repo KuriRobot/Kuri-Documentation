@@ -3,29 +3,13 @@ layout: reference
 title: depthscan
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- depth sensor
+- point cloud
+- laser scan
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
+The depthscan package contains the ``depthscan`` node.  
 
 ## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``depthscan``  

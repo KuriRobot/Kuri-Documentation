@@ -3,29 +3,14 @@ layout: reference
 title: depth_sensor_msgs
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- depth sensor
+- cliff sensor
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
+depth_sensor_msgs contains copies of mobile_base::CliffArray and
+mobile_base::CliffSensor, purely to avoid circular dependencies.
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+* ``CliffSensor.msg``  
+* ``CliffArray.msg``  
