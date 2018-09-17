@@ -29,13 +29,11 @@ thresholds:
 * `rospy`
 
 ## Services
-``bagfile_recorder/start``
+#### `bagfile_recorder/start`  
+Service to call to start the bagfile recorder (it is off by default).
 
-Start the bagfile recorder (it is off by default).
-
-``bagfile_recorder/stop``
-
-Stop the bagfile recorder.
+#### `bagfile_recorder/stop`  
+Service to call to stop the bagfile recorder (it is off by default).
 
 ## Topics
 Does not advertise any topics, but will record all of these:
