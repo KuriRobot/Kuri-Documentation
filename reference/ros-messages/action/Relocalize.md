@@ -1,7 +1,8 @@
 ---
 layout: reference
-title: RelocalizeResult.msg
-category: message
+title: Relocalize.action
+package: ${package}
+category: action-message
 tags: 
 - ${tag}
 - ${tag}
@@ -9,7 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+
+---
+bool success
+---
+
 ```
 
 ## Arguments
@@ -18,7 +23,3 @@ ${description}
 
 #### `${argument}`
 ${description}
-
-## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  

@@ -1,7 +1,8 @@
 ---
 layout: reference
-title: RelocalizeActionGoal.msg
-category: message
+title: MoveBase.action
+package: ${package}
+category: action-message
 tags: 
 - ${tag}
 - ${tag}
@@ -9,7 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+geometry_msgs/PoseStamped target_pose
+---
+---
+string state
+geometry_msgs/PoseStamped base_position
 ```
 
 ## Arguments

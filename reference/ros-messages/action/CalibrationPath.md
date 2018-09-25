@@ -1,15 +1,22 @@
 ---
 layout: reference
-title: RecordBagfileAction.msg
-category: message
+title: CalibrationPath.action
+package: ${package}
+category: action-message
 tags: 
 - ${tag}
 - ${tag}
 ---
 
-## Message Definition
+## Message Definition  
 ```
-${message file}
+
+---
+#result definition
+bool success
+string error
+---
+
 ```
 
 ## Arguments
@@ -22,3 +29,4 @@ ${description}
 ## Related Documentation
 ``${name of associated topic}``  
 ``${name of associated topic}``  
+

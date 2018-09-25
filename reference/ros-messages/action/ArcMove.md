@@ -1,7 +1,8 @@
 ---
 layout: reference
-title: NavigateResult.msg
-category: message
+title: ArcMove.action
+package: ${package}
+category: action-message
 tags: 
 - ${tag}
 - ${tag}
@@ -9,7 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# goal
+float32 arc_len
+float32 linear_velocity
+float32 angle
+float32 angular_velocity
+float32 duration
+---
+# result
+---
+# feedback
 ```
 
 ## Arguments
@@ -22,3 +32,4 @@ ${description}
 ## Related Documentation
 ``${name of associated topic}``  
 ``${name of associated topic}``  
+

@@ -1,7 +1,8 @@
 ---
 layout: reference
-title: RecordBagfileResult.msg
-category: message
+title: RecordBagfile.action
+package: ${package}
+category: action-message
 tags: 
 - ${tag}
 - ${tag}
@@ -9,7 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# mode is 'mapping' or 'localization' or 'stopped'
+string mode
+---
+bool success
+---
 ```
 
 ## Arguments
