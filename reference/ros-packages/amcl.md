@@ -3,29 +3,20 @@ layout: reference
 title: amcl
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- localization
+- particle filter
 ---
 
 ## Overview
-${overview}
+Mayfield's fork of amcl is almost identical to the upstream ROS-indigo package
+(found here: https://github.com/ros-planning/navigation/tree/indigo-devel/amcl)
+but has a few custom changes that we made for Kuri.
 
 ## Usage
-${usage}
+See the launch file docs, ``amcl.launch``.
 
 ## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
+``laser_amcl``  
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``HypothesisSet.msg``  

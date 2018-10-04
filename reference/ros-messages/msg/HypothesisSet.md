@@ -3,22 +3,24 @@ layout: reference
 title: HypothesisSet.msg
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- amcl
+- localization
+- particles
 ---
 
 ## Message Definition
 ```
-${message file}
+Header header
+geometry_msgs/PoseWithCovariance[] hypotheses
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `header`
+Contains the tf frame and timestamp for hypotheses
 
-#### `${argument}`
-${description}
+#### `hypotheses`
+List of poses with associated covariances to use in initializing amcl's
+particle filter
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/initialpose_cloud``   
