@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: clothesline_obstacle_detector.launch
+package: obstacle_detector
 category: launch
 tags: 
 - obstacle detector
