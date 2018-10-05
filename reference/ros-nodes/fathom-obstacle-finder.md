@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: fathom_obstacle_finder
+package: fathom_cloud_processor
 category: node
 tags: 
 - depth sensor

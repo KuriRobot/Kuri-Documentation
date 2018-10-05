@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: depthscan
+package: depthscan
 category: node
 tags: 
 - depth sensor
