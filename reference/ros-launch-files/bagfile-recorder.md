@@ -3,24 +3,21 @@ layout: reference
 title: bagfile_recorder.launch
 category: launch
 tags: 
-- ${tag}
-- ${tag}
+- bagfile recorder
 ---
 
 ## Launch File Definition
 ```
-${launch file}
+<launch>
+
+  <node name="bagfile_recorder"
+        pkg="gizmo"
+        type="bagfile_recorder"
+        respawn="True"
+        respawn_delay="10"/>
+
+</launch>
 ```
-
-## Arguments
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
 
 ## ROS Node
 ``bagfile_recorder``
