@@ -3,29 +3,20 @@ layout: reference
 title: ros_beat
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- ros_beat
+- dance
 ---
 
 ## Overview
-${overview}
+The ros-beat package provides the ROS beat node's source code, which monitors
+pulseaudio output and detects beats-per-minute in real time to help Kuri 
+dance intelligently.
 
 ## Usage
-${usage}
+This package exists to provide code for the ros-beat node.
 
 ## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
+``ros-beat`` 
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``Detection``  
