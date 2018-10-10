@@ -3,24 +3,20 @@ layout: reference
 title: health_monitor.launch
 category: launch
 tags: 
-- ${tag}
-- ${tag}
+- health monitor
 ---
 
 ## Launch File Definition
 ```
-${launch file}
+<launch>
+
+  <node name="health_monitor"
+        pkg="gizmo"
+        type="health_monitor"
+        respawn="true" respawn_delay="10" />
+
+</launch>
 ```
-
-## Arguments
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
-
-#### `${argument_name}`
-${description}
 
 ## ROS Node
 ``health_monitor``
