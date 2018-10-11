@@ -3,29 +3,9 @@ layout: reference
 title: gizmo_ros_navigation
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- maps
+- amcl
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+The gizmo_ros_navigation package contains the launch file that we use for amcl, and also assorted maps and launch files that are still used for tests.  Everything else is deprecated.
