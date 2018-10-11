@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: SetNavMode.srv
+package: gizmo_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string mode
+---
+bool success
 ```
 
 ## Arguments
-#### `${argument}`
+#### `mode`
 ${description}
 
-#### `${argument}`
+#### `success`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/set_nav_mode``  

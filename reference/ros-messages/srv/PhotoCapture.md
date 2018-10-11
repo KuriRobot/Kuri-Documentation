@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: PhotoCapture.srv
+package: gizmo_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+sensor_msgs/CompressedImage image
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `image`
 ${description}
 
 ## Related Documentation

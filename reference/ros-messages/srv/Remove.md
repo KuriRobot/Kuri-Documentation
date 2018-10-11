@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Remove.srv
+package: image_wp_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string uuid
+---
+bool success
 ```
 
 ## Arguments
-#### `${argument}`
+#### `uuid`
 ${description}
 
-#### `${argument}`
+#### `success`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/image_wp_server/remove``  

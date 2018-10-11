@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: LocLocate.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,21 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string nspace
+string id
+---
+geometry_msgs/PoseStamped pose
 ```
 
 ## Arguments
-#### `${argument}`
+#### `nspace`
 ${description}
 
-#### `${argument}`
+#### `id`
+${description}
+
+#### `pose`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/graph_loc/locate``  

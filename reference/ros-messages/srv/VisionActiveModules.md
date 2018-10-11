@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: VisionActiveModules.srv
+package: vision_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+string[] modules
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `modules`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/vision/active_modules``  

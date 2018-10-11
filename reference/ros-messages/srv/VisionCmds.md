@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: VisionCmds.srv
+package: vision_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+VisionCmdMsg[] commands
+---
+bool success
 ```
 
 ## Arguments
-#### `${argument}`
+#### `commands`
 ${description}
 
-#### `${argument}`
+#### `success`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/vision/cmds``  

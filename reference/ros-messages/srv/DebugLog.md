@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: DebugLog.srv
+package: mobile_base_driver
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string txLogPath
+string rxLogPath
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `txLogPath`
 ${description}
 
-#### `${argument}`
+#### `rxLogPath`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/mobile_base/debug_logger``  

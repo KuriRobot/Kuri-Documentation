@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: GetUInt.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+uint64 data
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `data`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/map/num_nodes``  

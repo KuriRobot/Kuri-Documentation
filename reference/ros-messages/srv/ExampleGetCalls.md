@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ExampleGetCalls.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+ros_webrtc/ExampleCall[] calls
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `calls`
 ${description}
 
 ## Related Documentation

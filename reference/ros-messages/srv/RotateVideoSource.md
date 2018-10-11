@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: RotateVideoSource.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string label
+int32 rotation
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `label`
 ${description}
 
-#### `${argument}`
+#### `rotation`
 ${description}
 
 ## Related Documentation

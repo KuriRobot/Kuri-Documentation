@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: AddIceCandidate.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,28 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
+string sdp_mid
+int32 sdp_mline_index
+string candidate
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
+${description}
+
+#### `sdp_mid`
+${description}
+
+#### `sdp_mline_index`
+${description}
+
+#### `candidate`
 ${description}
 
 ## Related Documentation

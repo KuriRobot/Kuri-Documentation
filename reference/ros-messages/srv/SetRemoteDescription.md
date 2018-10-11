@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: SetRemoteDescription.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
+ros_webrtc/SessionDescription session_description
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
+${description}
+
+#### `session_description`
 ${description}
 
 ## Related Documentation

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: RecordShow.srv
+package: gizmo_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,48 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+bool video
+bool audio
+int32 bitrate 
+int32 rotate
+int64 janus_session_id
+int64 janus_plugin_id
+bool janus_keepalive
+string webrtc_session_id
+string webrtc_peer_id
+bool webrtc_bonded
 ```
 
 ## Arguments
-#### `${argument}`
+#### `video`
 ${description}
 
-#### `${argument}`
+#### `audio`
+${description}
+
+#### `bitrate`
+${description}
+
+#### `rotate`
+${description}
+
+#### `janus_session_id`
+${description}
+
+#### `janus_plugin_id`
+${description}
+
+#### `janus_keepalive`
+${description}
+
+#### `webrtc_session_id`
+${description}
+
+#### `webrtc_peer_id`
+${description}
+
+#### `webrtc_bonded`
 ${description}
 
 ## Related Documentation

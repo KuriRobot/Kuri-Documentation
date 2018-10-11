@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: TeleopList.srv
-package: gizmo_webrtc
+title: ListMaps.srv
+package: gizmo_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -11,12 +11,12 @@ tags:
 ## Message Definition
 ```
 ---
-string[] peer_ids
+string[] uuids
 ```
 
 ## Arguments
-#### `peer_ids`
+#### `uuids`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/gizmo_brain/list_maps``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MapResume.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string new_map_loc
+geometry_msgs/Pose2D pose
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `new_map_loc`
 ${description}
 
-#### `${argument}`
+#### `pose`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/map/resume``  

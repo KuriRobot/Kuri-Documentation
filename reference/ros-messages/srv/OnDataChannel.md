@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: OnDataChannel.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+ros_webrtc/DataChannel data_channel
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `data_channel`
 ${description}
 
 ## Related Documentation

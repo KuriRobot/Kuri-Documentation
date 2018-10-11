@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: StringExchange.srv
+package: mayfield_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string in_str
+---
+string out_str
 ```
 
 ## Arguments
-#### `${argument}`
+#### `in_str`
 ${description}
 
-#### `${argument}`
+#### `out_str`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/command/query``  

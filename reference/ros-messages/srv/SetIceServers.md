@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: SetIceServers.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+IceServer[] ice_servers
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `ice_servers`
 ${description}
 
 ## Related Documentation

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: LocCreate.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string nspace
+string id
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `nspace`
 ${description}
 
-#### `${argument}`
+#### `id`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/graph_loc/create``  

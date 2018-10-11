@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: FlubnubChannelClose.srv
-package: gizmo_webrtc
+title: GetCostMap.srv
+package: may_nav_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -10,17 +10,17 @@ tags:
 
 ## Message Definition
 ```
-string channel
+bool use_dynamic_map
 ---
-int32 count
+may_nav_msgs/CostMap cost_map
 ```
 
 ## Arguments
-#### `channel`
+#### `use_dynamic_map`
 ${description}
 
-#### `count`
+#### `cost_map`
 ${description}
 
 ## Related Documentation
-``/gizmo_webrtc/gizmo_webrtc_flubnub/close_channel``  
+``/may_nav/get_obstacle_cost_map``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Load.srv
+package: image_wp_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+image_wp_msgs/Waypoint[] waypoints
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `waypoints`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/image_wp_server/load``  

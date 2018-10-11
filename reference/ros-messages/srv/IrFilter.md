@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: IrFilter.srv
+package: mobile_base_driver
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+bool active
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `active`
 ${description}
 
 ## Related Documentation

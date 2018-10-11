@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: OnSetSessionDescription.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string type
+string sdp
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `type`
 ${description}
 
-#### `${argument}`
+#### `sdp`
 ${description}
 
 ## Related Documentation

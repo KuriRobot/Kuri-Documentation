@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: OnSignalingStateChange.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
-${description}
+No arguments. Copy of empty service
 
 ## Related Documentation
 ``${name of associated service}``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: OnAddStream.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+ros_webrtc/Stream stream
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `stream`
 ${description}
 
 ## Related Documentation

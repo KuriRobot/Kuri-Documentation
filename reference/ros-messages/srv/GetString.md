@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: GetString.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,14 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+string data
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `data`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/map/name``  
+``/oort_ros_mapping/map/state``  

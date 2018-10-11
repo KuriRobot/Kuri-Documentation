@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MqttSubscribe.srv
+package: gizmo_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string topic
+---
+bool success
 ```
 
 ## Arguments
-#### `${argument}`
+#### `topic`
 ${description}
 
-#### `${argument}`
+#### `success`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/mqtt/subscribe``  

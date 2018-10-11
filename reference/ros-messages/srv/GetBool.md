@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: GetBool.srv
+package: oort
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,15 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+bool data
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `data`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/global_localization/is_ready``  
+``/oort_ros_mapping/graph_loc/is_ready``  
+``/oort_ros_mapping/map/has_map``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: GetObstacleDist.srv
+package: may_nav_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+float64 obstacle_dist
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `obstacle_dist`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/may_nav/get_obstacle_dist``  

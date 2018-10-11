@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: TeleopShow.srv
+package: gizmo_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string peer_id
+---
+string peer_id
+bool bonded
 ```
 
 ## Arguments
-#### `${argument}`
+#### `peer_id (request)`
 ${description}
 
-#### `${argument}`
+#### `peer_id (response)`
+${description}
+
+#### `bonded`
 ${description}
 
 ## Related Documentation

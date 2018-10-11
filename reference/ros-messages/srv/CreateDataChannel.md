@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: CreateDataChannel.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,36 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
+string label
+int32 id
+bool reliable
+bool ordered
+string protocol
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
+${description}
+
+#### `label`
+${description}
+
+#### `id`
+${description}
+
+#### `reliable`
+${description}
+
+#### `ordered`
+${description}
+
+#### `protocol`
 ${description}
 
 ## Related Documentation

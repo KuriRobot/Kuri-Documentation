@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Add.srv
+package: image_wp_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,21 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string name
+---
+image_wp_msgs/Waypoint new_waypoint
+string error
 ```
 
 ## Arguments
-#### `${argument}`
+#### `name`
 ${description}
 
-#### `${argument}`
+#### `new_waypoint`
+${description}
+
+#### `error`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/image_wp_server/add``  

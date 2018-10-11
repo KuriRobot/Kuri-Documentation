@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: GetHost.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,24 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+ros_webrtc/MediaConstraints sdp_constraints
+ros_webrtc/Source[] audio_sources
+ros_webrtc/Source[] video_sources
+ros_webrtc/PeerConnectionKey[] peer_connections
 ```
 
 ## Arguments
-#### `${argument}`
+#### `sdp_constraints`
 ${description}
 
-#### `${argument}`
+#### `audio_sources`
+${description}
+
+#### `video_sources`
+${description}
+
+#### `peer_connections`
 ${description}
 
 ## Related Documentation

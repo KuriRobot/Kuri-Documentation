@@ -1,6 +1,9 @@
 ---
 layout: reference
 title: GetMap.srv
+package: 
+- oort_msgs
+- nav_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +12,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+nav_msgs/OccupancyGrid map
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `map`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/map/map``  

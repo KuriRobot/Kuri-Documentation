@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Rename.srv
+package: image_wp_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,21 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string uuid
+string new_name
+---
+bool success
 ```
 
 ## Arguments
-#### `${argument}`
+#### `uuid`
 ${description}
 
-#### `${argument}`
+#### `new_name`
+${description}
+
+#### `success`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/image_wp_server/rename``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: FlubnubChannels.srv
+package: gizmo_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+string[] channels
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `channels`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/gizmo_webrtc/gizmo_webrtc_flubnub/channels``  

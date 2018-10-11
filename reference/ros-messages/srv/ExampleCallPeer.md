@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ExampleCallPeer.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string peer_id
+string session_id
+---
+ros_webrtc/ExampleCall call
 ```
 
 ## Arguments
-#### `${argument}`
+#### `peer_id`
 ${description}
 
-#### `${argument}`
+#### `session_id`
+${description}
+
+#### `call`
 ${description}
 
 ## Related Documentation

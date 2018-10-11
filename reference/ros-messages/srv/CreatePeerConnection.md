@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: CreatePeerConnection.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,28 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
+ros_webrtc/MediaConstraints sdp_constraints
+string[] video_sources
+string[] audio_sources
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
+${description}
+
+#### `sdp_constraints`
+${description}
+
+#### `video_sources`
+${description}
+
+#### `audio_sources`
 ${description}
 
 ## Related Documentation

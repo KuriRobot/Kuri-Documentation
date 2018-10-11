@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: VisionQuery.srv
+package: vision_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,18 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string module
+---
+mayfield_msgs/KeyValue[] params
 ```
 
 ## Arguments
-#### `${argument}`
+#### `module`
 ${description}
 
-#### `${argument}`
+#### `params`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/vision/get_config``  
+``/vision/get_params``  

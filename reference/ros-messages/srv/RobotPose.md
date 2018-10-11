@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: RobotPose.srv
+package: gizmo_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+---
+geometry_msgs/Pose pose
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `pose`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/client_interface/dock_pose``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: OnIceCandidate.srv
+package: ros_webrtc
 category: service-message
 tags: 
 - ${tag}
@@ -9,14 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+ros_webrtc/IceCandidate candidate
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `candidate`
 ${description}
 
 ## Related Documentation

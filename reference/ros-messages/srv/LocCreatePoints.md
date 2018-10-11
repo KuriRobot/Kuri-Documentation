@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: LocCreatePoints.srv
+package: oort_msgs
 category: service-message
 tags: 
 - ${tag}
@@ -9,15 +10,21 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string[] nspaces
+geometry_msgs/Point[] points
+string[] ids
+---
 ```
 
 ## Arguments
-#### `${argument}`
+#### `nspaces`
 ${description}
 
-#### `${argument}`
+#### `points`
+${description}
+
+#### `ids`
 ${description}
 
 ## Related Documentation
-``${name of associated service}``  
+``/oort_ros_mapping/graph_loc/create_points``  
