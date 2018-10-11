@@ -3,29 +3,8 @@ layout: reference
 title: gizmo_description
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- urdf
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+The gizmo_description package contains the urdf robot description files for both real and simulated Kuri robots.
