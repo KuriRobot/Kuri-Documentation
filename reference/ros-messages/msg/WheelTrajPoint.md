@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: WheelTrajPoint.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+duration time_from_start
+float64 linear_vel
+float64 angular_vel
 ```
 
 ## Arguments
-#### `${argument}`
+#### `time_from_start`
 ${description}
 
-#### `${argument}`
+#### `linear_vel`
+${description}
+
+#### `angular_vel`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``wheelTraj.msg``  

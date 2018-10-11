@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: DetectedObjects.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,22 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Header for timestamp / frame info
+Header header
+
+ClassifiedObjects positive_detections
+ClassifiedObjects all_detections
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `positive_detections`
+${description}
+
+#### `all_detections`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``FrameResults.msg``  

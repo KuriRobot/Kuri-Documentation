@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: IceCandidate.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,19 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string sdp_mid
+int32 sdp_mline_index
+string candidate
 ```
 
 ## Arguments
-#### `${argument}`
+#### `sdp_mid`
 ${description}
 
-#### `${argument}`
+#### `sdp_mline_index`
+${description}
+
+#### `candidate`
 ${description}
 
 ## Related Documentation

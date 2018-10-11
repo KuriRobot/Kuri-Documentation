@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Track.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,24 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string kind
+string id
+string state
+bool enabled
 ```
 
 ## Arguments
-#### `${argument}`
+#### `kind`
 ${description}
 
-#### `${argument}`
+#### `id`
+${description}
+
+#### `state`
+${description}
+
+#### `enabled`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``PeerConnection.msg``  

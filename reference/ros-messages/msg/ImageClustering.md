@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ImageClustering.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,22 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Header for timestamp / frame info
+Header header
+
+string cluster
+uint16 current_cluster_size
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `cluster`
+${description}
+
+#### `current_cluster_size`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/vision/captured``  

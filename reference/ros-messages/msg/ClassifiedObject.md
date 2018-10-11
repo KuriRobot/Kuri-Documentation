@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ClassifiedObject.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,25 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Header for timestamp info
+Header header
+string object_class     # Detected objects
+float32 confidence    # Confidence for each detected object
+sensor_msgs/RegionOfInterest roi  # Region within frame the object was detected
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `object_class`
+${description}
+
+#### `confidence`
+${description}
+
+#### `roi`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``ClassifiedObjects.msg``  

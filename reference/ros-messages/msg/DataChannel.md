@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: DataChannel.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,37 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string label
+int32 id
+bool reliable
+bool ordered
+string protocol
+int32 chunk_size
+string state
 ```
 
 ## Arguments
-#### `${argument}`
+#### `label`
 ${description}
 
-#### `${argument}`
+#### `id`
+${description}
+
+#### `reliable`
+${description}
+
+#### `ordered`
+${description}
+
+#### `protocol`
+${description}
+
+#### `chunk_size`
+${description}
+
+#### `state`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
+``PeerConnection.msg``  
 ``${name of associated topic}``  

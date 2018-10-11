@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Field.msg
+package: audio_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,27 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string name
+string type
+uint32 length
+string description
+string mode
 ```
 
 ## Arguments
-#### `${argument}`
+#### `name`
 ${description}
 
-#### `${argument}`
+#### `type`
+${description}
+
+#### `length`
+${description}
+
+#### `description`
+${description}
+
+#### `mode`
 ${description}
 
 ## Related Documentation

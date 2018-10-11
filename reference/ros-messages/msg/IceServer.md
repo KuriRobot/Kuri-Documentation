@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: IceServer.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,19 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string uri
+string username
+string password
 ```
 
 ## Arguments
-#### `${argument}`
+#### `uri`
 ${description}
 
-#### `${argument}`
+#### `username`
+${description}
+
+#### `password`
 ${description}
 
 ## Related Documentation

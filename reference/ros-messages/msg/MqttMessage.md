@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MqttMessage.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string topic
+string payload
 ```
 
 ## Arguments
-#### `${argument}`
+#### `topic`
 ${description}
 
-#### `${argument}`
+#### `payload`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/mqtt/incoming``  
+``/mqtt/outgoing``  

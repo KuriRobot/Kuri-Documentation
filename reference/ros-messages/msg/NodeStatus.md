@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: NodeStatus.msg
+package: mayfield_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string node_name
+bool online
 ```
 
 ## Arguments
-#### `${argument}`
+#### `node name`
 ${description}
 
-#### `${argument}`
+#### `online`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/node_online``  
+

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: FaceArray.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,13 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+Face[] faces
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `faces`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``FrameResults.msg``  
+

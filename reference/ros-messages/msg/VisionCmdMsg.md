@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: VisionCmdMsg.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,25 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string action
+string module
+# Optional config
+mayfield_msgs/KeyValue[] config
+# Optional params
+mayfield_msgs/KeyValue[] params
 ```
 
 ## Arguments
-#### `${argument}`
+#### `action`
 ${description}
 
-#### `${argument}`
+#### `module`
+${description}
+
+#### `config`
+${description}
+
+#### `params`
 ${description}
 
 ## Related Documentation

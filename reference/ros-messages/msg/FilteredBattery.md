@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: FilteredBattery.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+uint8 rounded_pct
+bool dock_present
+bool is_charging
 ```
 
 ## Arguments
-#### `${argument}`
+#### `rounded_pct`
 ${description}
 
-#### `${argument}`
+#### `dock_present`
+${description}
+
+#### `is_charging`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/client_interface/filtered_battery_status``  

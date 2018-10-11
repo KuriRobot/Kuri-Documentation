@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ClassifiedObjects.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+ClassifiedObject[] objects
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `objects`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``DetectedObjects.msg``  

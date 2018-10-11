@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: HeadPose.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+float32 pan
+float32 tilt
 ```
 
 ## Arguments
-#### `${argument}`
+#### `pan`
 ${description}
 
-#### `${argument}`
+#### `tilt`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/head_teleop``  

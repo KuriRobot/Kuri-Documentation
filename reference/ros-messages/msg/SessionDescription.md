@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: SessionDescription.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,15 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string type
+string sdp
 ```
 
 ## Arguments
-#### `${argument}`
+#### `type`
 ${description}
 
-#### `${argument}`
+#### `sdp`
 ${description}
 
 ## Related Documentation

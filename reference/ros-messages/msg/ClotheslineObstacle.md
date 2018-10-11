@@ -4,7 +4,8 @@ title: ClotheslineObstacle.msg
 package: obstacle_detector
 category: message
 tags: 
-- obstacle detector
+- ${tag}
+- ${tag}
 ---
 
 ## Message Definition

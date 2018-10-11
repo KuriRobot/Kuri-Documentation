@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Source.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,27 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string kind
+string label
+string state
+bool publish
+int32 rotation
 ```
 
 ## Arguments
-#### `${argument}`
+#### `kind`
 ${description}
 
-#### `${argument}`
+#### `label`
+${description}
+
+#### `state`
+${description}
+
+#### `publish`
+${description}
+
+#### `rotation`
 ${description}
 
 ## Related Documentation

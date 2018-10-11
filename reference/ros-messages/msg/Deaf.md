@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Deaf.msg
+package: audio_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,15 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# empty
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
-${description}
+There are no arguments. This file is to copy the Empty message from std_msgs
 
 ## Related Documentation
 ``${name of associated topic}``  

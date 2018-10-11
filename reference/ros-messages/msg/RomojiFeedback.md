@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: RomojiFeedback.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string request_id
+string feedback
 ```
 
 ## Arguments
-#### `${argument}`
+#### `request_id`
 ${description}
 
-#### `${argument}`
+#### `feedback`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/client_interface/romoji/feedback``  

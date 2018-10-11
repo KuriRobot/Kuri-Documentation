@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: BatteryCapacity.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,23 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+int16 mAh
+int8 pct
+int8 rounded_pct # capacity percentage estimate, rounded to the nearest 5 and
+                 # subjected to hysteresis so it can only change if the value has
+                 # changed by at least 5
 ```
 
 ## Arguments
-#### `${argument}`
+#### `mAh`
 ${description}
 
-#### `${argument}`
+#### `pct`
+${description}
+
+#### `rounded_pct`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``Power.msg``  
+ 

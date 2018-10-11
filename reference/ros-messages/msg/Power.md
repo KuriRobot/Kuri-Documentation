@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Power.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,44 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+uint16[] adc_channels
+float32 v_dock
+float32 v_batt
+float32 i_batt
+float32 t_batt
+bool dock_present
+bool is_charging
+bool power_button_pressed
+BatteryCapacity battery
 ```
 
 ## Arguments
-#### `${argument}`
+#### `adc_channels`
 ${description}
 
-#### `${argument}`
+#### `v_dock`
+${description}
+
+#### `v_batt`
+${description}
+
+#### `i_batt`
+${description}
+
+#### `t_batt`
+${description}
+
+#### `dock_present`
+${description}
+
+#### `is_charging`
+${description}
+
+#### `power_button_pressed`
+${description}
+
+#### `battery`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/mobile_base/power``  

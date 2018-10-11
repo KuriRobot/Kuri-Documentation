@@ -1,10 +1,11 @@
 ---
 layout: reference
 title: Detection.msg
+package: ros_beat
 category: message
 tags: 
-- ros_beat
-- dance
+- ${tag}
+- ${tag}
 ---
 
 ## Message Definition

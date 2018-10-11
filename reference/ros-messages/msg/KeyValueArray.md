@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: KeyValueArray.msg
+package: mayfield_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+KeyValue[] key_values
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `key_values`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/voice_commands/update``  

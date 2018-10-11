@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Constraint.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``MediaConstraints.msg``  

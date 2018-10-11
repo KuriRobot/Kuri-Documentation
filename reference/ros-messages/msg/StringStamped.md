@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: StringStamped.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,19 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+Header header
+string timems
+string data
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `timems`
+${description}
+
+#### `data`
 ${description}
 
 ## Related Documentation

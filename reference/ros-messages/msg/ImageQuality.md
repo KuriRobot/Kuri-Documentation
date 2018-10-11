@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ImageQuality.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,30 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+
+# Header for timestamp info
+Header header
+float32 brightness
+float32 sharpness
+float32 brightness_delta
+float32 sharpness_delta
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `brightness`
+${description}
+
+#### `sharpness`
+${description}
+
+#### `brightness_delta`
+${description}
+
+#### `sharpness_delta`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``FrameResults.msg``  

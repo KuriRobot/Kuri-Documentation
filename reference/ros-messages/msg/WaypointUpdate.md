@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: WaypointUpdate.msg
+package: image_wp_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+image_wp_msgs/Waypoint[] waypoints
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `waypoints`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/image_wp_server/waypoint_update``  

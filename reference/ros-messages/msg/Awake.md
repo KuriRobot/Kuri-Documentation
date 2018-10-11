@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Awake.msg
+package: audio_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+geometry_msgs/Vector3 direction
+uint16 relative_angle
+float32 score
 ```
 
 ## Arguments
-#### `${argument}`
+#### `direction`
 ${description}
 
-#### `${argument}`
+#### `relative_angle`
+${description}
+
+#### `score`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/audio/voice_delegate/awake``    

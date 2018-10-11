@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MomentActions.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,12 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+MomentAction[] actions
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `actions`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/moment_actions/actions``  

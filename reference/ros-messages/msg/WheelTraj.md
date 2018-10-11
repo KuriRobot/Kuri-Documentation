@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: WheelTraj.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+Header header
+WheelTrajPoint[] points
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `points`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/mobile_base/commands/wheel_traj``  

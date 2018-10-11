@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MediaConstraints.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+ros_webrtc/Constraint[] mandatory
+ros_webrtc/Constraint[] optional
 ```
 
 ## Arguments
-#### `${argument}`
+#### `mandatory`
 ${description}
 
-#### `${argument}`
+#### `optional`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``PeerConnection.msg``  

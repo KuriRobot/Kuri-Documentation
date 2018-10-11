@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Waypoint.msg
+package: image_wp_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,25 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string uuid
+string name
+gizmo_msgs/HeadPose head_pose
+geometry_msgs/Pose pose
 ```
 
 ## Arguments
-#### `${argument}`
+#### `uuid`
 ${description}
 
-#### `${argument}`
+#### `name`
+${description}
+
+#### `head_pose`
+${description}
+
+#### `pose`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
+``WaypointUpdate.msg``  
 ``${name of associated topic}``  

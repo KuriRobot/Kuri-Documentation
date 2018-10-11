@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ClientTouch.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string request_id
+float32 x
+float32 y
 ```
 
 ## Arguments
-#### `${argument}`
+#### `request_id`
 ${description}
 
-#### `${argument}`
+#### `x`
+${description}
+
+#### `y`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/client_interface/navigation/touch_drive``  

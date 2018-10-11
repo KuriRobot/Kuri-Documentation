@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: PeerConnectionKey.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,15 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string session_id
+string peer_id
 ```
 
 ## Arguments
-#### `${argument}`
+#### `session_id`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
 ${description}
 
 ## Related Documentation

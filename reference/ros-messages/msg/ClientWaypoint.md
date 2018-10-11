@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ClientWaypoint.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string request_id
+string waypoint_uuid
 ```
 
 ## Arguments
-#### `${argument}`
+#### `request_id`
 ${description}
 
-#### `${argument}`
+#### `waypoint_uuid`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/client_interface/navigation/waypoint``  

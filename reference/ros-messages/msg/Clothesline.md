@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Clothesline.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# clothesline sensor state
+
+uint8 NOTHING   = 0
+uint8 SOMETHING = 1
+
+uint8   state
+float32 distance
 ```
 
 ## Arguments
-#### `${argument}`
+#### `state`
 ${description}
 
-#### `${argument}`
+#### `distance`
 ${description}
 
 ## Related Documentation

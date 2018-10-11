@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Bumper.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,27 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Provides a bumper stae
+
+# bumper
+uint8 RIGHT     = 0
+uint8 CENTER    = 1
+uint8 LEFT      = 2
+
+# bumper state
+uint8 RELEASED = 0
+uint8 PRESSED = 1
+
+uint8 bumper
+uint8 state
 ```
 
 ## Arguments
-#### `${argument}`
+#### `bumper`
 ${description}
 
-#### `${argument}`
+#### `state`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``Bumpers.msg``  

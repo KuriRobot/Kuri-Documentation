@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Action.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string task
+string reaction
 ```
 
 ## Arguments
-#### `${argument}`
+#### `task`
 ${description}
 
-#### `${argument}`
+#### `reaction`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/current_action``  

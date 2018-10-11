@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Led.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,22 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Provides a three color LED state
+
+uint8 red
+uint8 green
+uint8 blue
 ```
 
 ## Arguments
-#### `${argument}`
+#### `red`
 ${description}
 
-#### `${argument}`
+#### `green`
+${description}
+
+#### `blue`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``ChestLeds.msg``  

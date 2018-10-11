@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ConfigString.msg
+package: driver_base
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,15 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string name
+string value
 ```
 
 ## Arguments
-#### `${argument}`
+#### `name`
 ${description}
 
-#### `${argument}`
+#### `value`
 ${description}
 
 ## Related Documentation

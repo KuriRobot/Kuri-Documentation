@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: KeyValue.msg
+package: mayfield_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# Key value pair, with values represented as strings
+string k
+string v
 ```
 
 ## Arguments
-#### `${argument}`
+#### `k`
 ${description}
 
-#### `${argument}`
+#### `v`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``KeyValueArray.msg``  
+``Command.msg``  
+``SoundHoundCommand.msg``  
+``VisionCmdMsg.msg``  

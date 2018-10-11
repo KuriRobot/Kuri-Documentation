@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Bumpers.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+Header header
+mobile_base_driver/Bumper[3] bumper
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `header`
+Header type from std_msgs, contains time stamp, frame id, etc
 
-#### `${argument}`
-${description}
+#### `bumper`
+Array of mobile_base_driver Bumper messages for publishing the bump status of the right, middle, and left bumpers
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/client_interface/bumpers``  

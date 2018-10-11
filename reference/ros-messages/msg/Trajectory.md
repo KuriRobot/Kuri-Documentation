@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Trajectory.msg
+package: may_nav_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,7 +10,7 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+geometry_msgs/Pose2D[] poses
 ```
 
 ## Arguments
@@ -20,5 +21,4 @@ ${description}
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``ScoredTrajectories.msg``  

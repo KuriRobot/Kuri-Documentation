@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: HypothesisSet.msg
+package: amcl
 category: message
 tags: 
 - amcl

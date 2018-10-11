@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ChestLED.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,11 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+std_msgs/ColorRGBA[] array
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `array`
 ${description}
 
 ## Related Documentation

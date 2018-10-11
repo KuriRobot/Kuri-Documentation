@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: VolumeButton.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+bool up_button_pressed
+bool down_button_pressed
 ```
 
 ## Arguments
-#### `${argument}`
+#### `up_button_pressed`
 ${description}
 
-#### `${argument}`
+#### `down_button_pressed`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/volume/button_status``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Connection.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,19 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+bool is_connected
+string peer_id
+bool are_all_peers_gone
 ```
 
 ## Arguments
-#### `${argument}`
+#### `is_connected`
 ${description}
 
-#### `${argument}`
+#### `peer_id`
+${description}
+
+#### `are_all_peers_none`
 ${description}
 
 ## Related Documentation

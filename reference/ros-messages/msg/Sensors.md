@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Sensors.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,31 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# sensor state published at a fixed frequency by the driver
+
+Header header
+
+# XXX: sensor indices in their respective arrays does not necessarily
+# reflect what sensor it actually represents
+# Each of these messages has its own internal field for that purpose.
+# Example: check wheeldrop[0].wheel == WheelDrop.RIGHT and do not rely on the 0
+Bumper[3]          bumper
+WheelDrop[2]       wheeldrop
+Touch              touch
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `bumper`
+${description}
+
+#### `wheeldrop`
+${description}
+
+#### `touch`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/mobile_base/sensors``  

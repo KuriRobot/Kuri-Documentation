@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: SoundHoundCommand.msg
+package: audio_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string name
+mayfield_msgs/KeyValue[] params
 ```
 
 ## Arguments
-#### `${argument}`
+#### `name`
 ${description}
 
-#### `${argument}`
+#### `params`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``Exchange.msg``  

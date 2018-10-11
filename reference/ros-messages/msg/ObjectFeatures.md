@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: ObjectFeatures.msg
+package: vision_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,17 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+Header header
+
+uint8[] features
 ```
 
 ## Arguments
-#### `${argument}`
+#### `header`
 ${description}
 
-#### `${argument}`
+#### `features`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``FrameResults.msg``  

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Touch.msg
+package: mobile_base_driver
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,14 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+# true means touched
+# [FRONT_LEFT, LEFT, REAR_LEFT, CENTER, FRONT, REAR_RIGHT, RIGHT, FRONT_RIGHT]
+bool[] electrodes
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
+#### `electrodes`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/mobile_base/touch``  

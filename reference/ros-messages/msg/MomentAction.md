@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: MomentAction.msg
+package: gizmo_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,16 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string event
+string uuid
 ```
 
 ## Arguments
-#### `${argument}`
+#### `event`
 ${description}
 
-#### `${argument}`
+#### `uuid`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``MomentActions.msg``  

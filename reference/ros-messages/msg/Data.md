@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Data.msg
+package: ros_webrtc
 category: message
 tags: 
 - ${tag}
@@ -9,14 +10,19 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+string label
+string encoding
+uint8[] buffer
 ```
 
 ## Arguments
-#### `${argument}`
+#### `label`
 ${description}
 
-#### `${argument}`
+#### `encoding`
+${description}
+
+#### `buffer`
 ${description}
 
 ## Related Documentation

@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: Exchange.msg
+package: audio_msgs
 category: message
 tags: 
 - ${tag}
@@ -9,16 +10,20 @@ tags:
 
 ## Message Definition
 ```
-${message file}
+SoundHoundCommand[] commands
+string error
+string transcription
 ```
 
 ## Arguments
-#### `${argument}`
+#### `commands`
 ${description}
 
-#### `${argument}`
+#### `error`
+${description}
+
+#### `transcription`
 ${description}
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/audio/voice_delegate/exchange``  
