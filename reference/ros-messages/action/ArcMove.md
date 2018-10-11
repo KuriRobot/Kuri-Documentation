@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: ArcMove.action
-package: ${package}
+package: mobile_base_driver
 category: action-message
 tags: 
 - ${tag}

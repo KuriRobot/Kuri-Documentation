@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Navigate.action
-package: ${package}
+package: may_nav_msgs
 category: action-message
 tags: 
 - ${tag}

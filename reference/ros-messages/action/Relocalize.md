@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Relocalize.action
-package: ${package}
+package: oort_msgs
 category: action-message
 tags: 
 - ${tag}

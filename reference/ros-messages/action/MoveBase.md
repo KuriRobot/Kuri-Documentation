@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: MoveBase.action
-package: ${package}
+package: move_base_msgs
 category: action-message
 tags: 
 - ${tag}

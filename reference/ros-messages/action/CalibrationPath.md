@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: CalibrationPath.action
-package: ${package}
+package: gizmo_msgs
 category: action-message
 tags: 
 - ${tag}
