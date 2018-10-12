@@ -4,8 +4,7 @@ title: CostMap.msg
 package: may_nav_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- costmaps
 ---
 
 ## Message Definition
@@ -22,18 +21,22 @@ nav_msgs/MapMetaData info
 # The cost map data, in row-major order, starting with (0,0).
 # The costs are represented as floats from [0, inf)
 float64[] data
+
 ```
 
+This message is the same as `nav_msgs/OccupancyGrid.msg` except the `data` field is composed of `float64` instead of `uint8`
+
 ## Arguments
-#### `header`
-${description}
+`header`  
+Normal ROS header containing the frame and stamp for the costmap
 
-#### `info`
-${description}
+`info`  
+Metadata for the map
 
-#### `data`
-${description}
+`data`  
+The cost map data, in row-major order, starting with (0,0).
+The costs are represented as floats from [0, inf)
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``GetCostMap.srv``  
+

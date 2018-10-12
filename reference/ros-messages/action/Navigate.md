@@ -4,8 +4,8 @@ title: Navigate.action
 package: may_nav_msgs
 category: action-message
 tags: 
-- ${tag}
-- ${tag}
+- navigation
+- path planning
 ---
 
 ## Message Definition
@@ -32,15 +32,38 @@ uint32 num_replans
 bool replan_failure_occurred
 ```
 
-## Arguments
-#### `${argument}`
-${description}
+## Goal
+`nav_type`  
+Specifies the navigation mode. 0 is the standard drive to waypoint mode. 1 makes unknown space traversable and bounds the planning to a circular region surrounding the goal and start pose (good for navigating to a point that you can see in the camera image). 2 is a person following mode that is deprecated.  
 
-#### `${argument}`
-${description}
+`pose`  
+The goal pose for the navigation request  
+
+## Feedback
+
+`string state`  
+State used to update the app  
+
+`string state_machine_state`  
+The local planner state machine state  
+
+`geometry_msgs/Pose2D target_pose`  
+The local planner's target pose  
+
+`geometry_msgs/Pose2D cmd_vel`  
+The last velocity commanded by the local planner  
+
+`bool has_bumped`  
+Whether nav processed a bump on the current time step  
+
+`uint32 num_replans`  
+The number of times the global planner has replanned  
+
+`bool replan_failure_occurred`  
+True if a replan failure occurred on this time step  
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/navigate``  
+
 
 

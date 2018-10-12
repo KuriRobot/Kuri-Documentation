@@ -4,8 +4,8 @@ title: Trajectory.msg
 package: may_nav_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- navigation
+- path planning
 ---
 
 ## Message Definition
@@ -14,11 +14,9 @@ geometry_msgs/Pose2D[] poses
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
-
-#### `${argument}`
-${description}
+`geometry_msgs/Pose2D[] poses`  
+List of poses making up a trajectory  
 
 ## Related Documentation
-``ScoredTrajectories.msg``  
+Used as part of ``ScoredTrajectories.msg``
+

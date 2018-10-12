@@ -3,29 +3,23 @@ layout: reference
 title: may_nav_msgs
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- navigation
+- path planning
+- costmaps
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
+Contains custom messages, services, and actions for may-nav
 
 ### Action Messages
-``${action}``  
-``${action}``  
+``Navigate.action``  
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
+``GetCostMap.srv``  
+``GetObstacleDist.srv``  
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``CostMap.msg``  
+``ScoredTrajectories.msg``  
+``Trajectory.msg``  
+
