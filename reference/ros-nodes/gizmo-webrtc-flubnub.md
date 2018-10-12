@@ -3,46 +3,21 @@ layout: reference
 title: gizmo_webrtc_flubnub
 category: node
 tags: 
-- ${tag}
-- ${tag}
-- ${tag}
+- webrtc
+- signaling
+- kuri live
 ---
 
 ## Description
-${description}
+The ``gizmo-webrtc-flubnub`` node is the flubnub server. It listens to TCP port
+`9000` and allow peers to exchange messages to each other.
+The ``gizmo_webrtc_teleop`` node is a client to this server, the Kuri app is
+another one.
+
 
 ## Dependencies
-${dependencies, if any}
-
-## Action API
-### Action Subscribed Topics
-``${topic}``  
-``${topic}``  
-
-### Action Published Topics
-``${topic}``  
-``${topic}``  
-
-## Subscribed Topics
-``${topic}``  
-``${topic}``  
-``${topic}``  
-
-## Published Topics
-``${topic}``  
-``${topic}``  
-
-## Services
-``${service}``  
-``${service}``  
-
-## Service Calls
-``${service}``  
-``${service}``  
-
-## Parameters
-``${parameter}``  
-``${parameter}``  
+- rospy
+- ws4py
 
 ## Launch File
-``gizmo_webrtc_flubnub.launch``  
+``gizmo_webrtc.launch``  

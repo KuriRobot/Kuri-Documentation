@@ -2,47 +2,23 @@
 layout: reference
 title: gizmo_webrtc_teleop
 category: node
-tags: 
-- ${tag}
-- ${tag}
-- ${tag}
+tags:
+- webrtc
+- kuri live
+- signaling
 ---
 
 ## Description
-${description}
+This node contains the WebRTC host and provides signaling to it.
+Signaling is done through flubnub for local access, and MQTT for remote access.
 
 ## Dependencies
-${dependencies, if any}
-
-## Action API
-### Action Subscribed Topics
-``${topic}``  
-``${topic}``  
-
-### Action Published Topics
-``${topic}``  
-``${topic}``  
-
-## Subscribed Topics
-``${topic}``  
-``${topic}``  
-``${topic}``  
+- ros-webrtc
+- rospy
+- yawl
 
 ## Published Topics
-``${topic}``  
-``${topic}``  
-
-## Services
-``${service}``  
-``${service}``  
-
-## Service Calls
-``${service}``  
-``${service}``  
-
-## Parameters
-``${parameter}``  
-``${parameter}``  
+``gizmo_webrtc_connection``
 
 ## Launch File
-``gizmo_webrtc_teleop.launch``  
+``gizmo_webrtc.launch``
