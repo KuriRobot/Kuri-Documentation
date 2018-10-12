@@ -4,8 +4,8 @@ title: Volume.msg
 package: gizmo_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- audio
+- volume
 ---
 
 ## Message Definition
@@ -29,20 +29,7 @@ bool mute
 bool unmute
 ```
 
-## Arguments
-#### `level`
-${description}
-
-#### `is_relative`
-${description}
-
-#### `mute`
-${description}
-
-#### `unmute`
-${description}
 
 ## Related Documentation
-``/volume/app_set``  
-``/volume/bt_set``  
-``/volume/hw_set``  
+``volume-interface``
+``bt_speaker_agent``

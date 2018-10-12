@@ -4,8 +4,9 @@ title: VolumeButton.msg
 package: gizmo_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- audio
+- volume
+- hardware
 ---
 
 ## Message Definition
@@ -16,10 +17,10 @@ bool down_button_pressed
 
 ## Arguments
 #### `up_button_pressed`
-${description}
+True if the volume up button is currently pressed
 
 #### `down_button_pressed`
-${description}
+True if the volume down button is currently pressed
 
 ## Related Documentation
-``/volume/button_status``  
+``volume-interface`` 
