@@ -2,30 +2,27 @@
 layout: reference
 title: oort_msgs
 category: package
-tags: 
-- ${tag}
-- ${tag}
+tags:
+- mapping
+- slam
+- oort
 ---
 
 ## Overview
-${overview}
 
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
+Service definitions for Oort.
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
 
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``GetBool``
+``GetMap``
+``GetString``
+``GetStrings``
+``GetUInt``
+``LocCreate``
+``LocCreatePoints``
+``LocDelete``
+``LocLocate``
+``LocNamespace``
+``MapResume``
+``SetString``
