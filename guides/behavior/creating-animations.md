@@ -168,8 +168,8 @@ Each animation in the arrays above has the following properties:
 You will need:
 
 - [Autodesk Maya](https://www.autodesk.com/products/maya/overview)
-- [Kuri Animation Plug-in for Maya]()
-- [Kuri Bridge]() if you'd like to preview your animations on the robot as you're working on them
+- [Kuri Animation Plug-in for Maya](https://s3-us-west-2.amazonaws.com/kuri-bridge/kuri-bridge-maya-plugin.zip)
+- ``kuri-bridge`` if you'd like to preview your animations on the robot as you're working on them
 
 Follow the installation instructions in the plug-in package to enable the `Kuri Animator` menu in Maya's menu bar. Once that's done, start Kuri Bridge and connect to your robot. Kuri Bridge will enable animations that you're working on in Maya to play directly on the robot. The Maya plug-in uses the bridge by default, so there's no further configuration you need to do.
 
@@ -188,7 +188,7 @@ Copy the resulting `.atom` file to `/opt/gizmo/share/assets/anims`.
 You will need:
 
 - [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)
-- [The Kuri Chest Light Rig for After Effects]()
+- [The Kuri Chest Light Rig for After Effects](https://s3-us-west-2.amazonaws.com/kuri-bridge/kuri-bridge-aftereffects-plugin.zip)
 
 Open the `KuriChestLightRig.aep` template. It looks like this:
 
@@ -206,7 +206,7 @@ There are a few different ways to do this:
 
 - Manually, using a text editor. Follow the format described under [Animation Containers](#animation-containers).
 - Using the `Export animation container` option in the Maya plug-in. When prompted for the name of the animation file, enter in **only the name**, not the path to the file.
-- Using [Kuri Bridge]()
+- Using ``kuri-bridge``
 
 Copy the `.json` container file to `/opt/gizmo/share/assets/anims/containers`. Then, restart `gizmo`:
 
