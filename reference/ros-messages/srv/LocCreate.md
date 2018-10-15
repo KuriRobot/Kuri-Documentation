@@ -4,8 +4,7 @@ title: LocCreate.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -17,10 +16,11 @@ string id
 
 ## Arguments
 #### `nspace`
-${description}
+Namespace to create the location in. Note that `dock` is a reserved namespace.
 
 #### `id`
-${description}
+An ID string. Can be anything distinctive in this namespace, usually Gizmo
+would a UUID here.
 
 ## Related Documentation
 ``/oort_ros_mapping/graph_loc/create``  

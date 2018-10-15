@@ -4,8 +4,7 @@ title: LocCreatePoints.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -18,13 +17,19 @@ string[] ids
 
 ## Arguments
 #### `nspaces`
-${description}
+Namespaces to create each location in points in. For legacy reasons, this
+allows each namespace to be different, but for the current Oort version, they
+should all be the same.
+
 
 #### `points`
-${description}
+Array of points (only the x & y component of each point is used).
+
 
 #### `ids`
-${description}
+Array of ID strings. Can be anything distinctive in this namespace, usually
+Gizmo would a UUID for each element here.
+
 
 ## Related Documentation
 ``/oort_ros_mapping/graph_loc/create_points``  

@@ -4,8 +4,7 @@ title: MapResume.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -17,10 +16,10 @@ geometry_msgs/Pose2D pose
 
 ## Arguments
 #### `new_map_loc`
-${description}
+Path where new map will be saved (old map + new extensions).
 
 #### `pose`
-${description}
+Current pose in map loaded to start adding SLAM graph nodes.
 
 ## Related Documentation
 ``/oort_ros_mapping/map/resume``  

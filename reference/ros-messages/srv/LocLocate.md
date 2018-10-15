@@ -4,8 +4,7 @@ title: LocLocate.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -18,13 +17,13 @@ geometry_msgs/PoseStamped pose
 
 ## Arguments
 #### `nspace`
-${description}
+Namespace that location exists in.
 
 #### `id`
-${description}
+ID string of location to locate.
 
 #### `pose`
-${description}
+The location's current pose according to SLAM graph.
 
 ## Related Documentation
 ``/oort_ros_mapping/graph_loc/locate``  

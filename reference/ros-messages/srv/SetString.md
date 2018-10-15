@@ -6,8 +6,7 @@ package:
 - mayfield_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -18,7 +17,7 @@ string data
 
 ## Arguments
 #### `data`
-${description}
+String to use for setting parameter.
 
 ## Related Documentation
 ``/oort_ros_mapping/map/load``  

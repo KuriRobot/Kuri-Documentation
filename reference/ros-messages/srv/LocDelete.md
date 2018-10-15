@@ -4,8 +4,7 @@ title: LocDelete.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -18,13 +17,13 @@ bool success
 
 ## Arguments
 #### `nspace`
-${description}
+Namespace that location is in.
 
 #### `id`
-${description}
+ID of location to delete.
 
 #### `success`
-${description}
+Whether Oort found the location and deleted it.
 
 ## Related Documentation
 ``/oort_ros_mapping/graph_loc/delete``  

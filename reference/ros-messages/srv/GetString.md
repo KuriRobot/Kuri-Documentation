@@ -4,8 +4,7 @@ title: GetString.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -16,7 +15,7 @@ string data
 
 ## Arguments
 #### `data`
-${description}
+Returned string.
 
 ## Related Documentation
 ``/oort_ros_mapping/map/name``  

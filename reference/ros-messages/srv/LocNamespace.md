@@ -4,8 +4,7 @@ title: LocNamespace.srv
 package: oort_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -19,16 +18,17 @@ string[] ids
 
 ## Arguments
 #### `nspace`
-${description}
+Namespace of location (or a prefix).
 
 #### `use_as_prefix`
-${description}
+Use the `nspace` argument as a prefix to perform search. If false, only exact
+matches to `nspace` will be listed.
 
 #### `nspaces`
-${description}
+Array of actual namespaces matched, one for each ID in `ids`.
 
 #### `ids`
-${description}
+Array of matched location IDs.
 
 ## Related Documentation
 ``/oort_ros_mapping/graph_loc/clear``  

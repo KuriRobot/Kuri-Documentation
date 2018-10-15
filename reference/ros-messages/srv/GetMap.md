@@ -6,8 +6,7 @@ package:
 - nav_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- oort
 ---
 
 ## Message Definition
@@ -18,7 +17,7 @@ nav_msgs/OccupancyGrid map
 
 ## Arguments
 #### `map`
-${description}
+Returned map.
 
 ## Related Documentation
 ``/oort_ros_mapping/map/map``  
