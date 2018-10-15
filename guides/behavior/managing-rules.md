@@ -2,12 +2,12 @@
 layout: guide
 title: Working with the Kuri Rules Engine
 category: behavior
-tags: 
+tags:
 - rules
 ---
 
 ## Goal
-Manipulate the rules in Kuri's rules engine to enable, modify or disable Kuri 
+Manipulate the rules in Kuri's rules engine to enable, modify or disable Kuri
 behaviors
 
 ## Overview
@@ -34,7 +34,7 @@ This says that when Kuri is tapped on the head, and Kuri is in the choreo_dance 
   * A very few rules have no trigger field, they then match any trigger and rely on the rules being evaluated top to bottom.
   * There is a special trigger called `tick` which fires once a second
 * Match commands: This is a list of conditions required to activate the rules. They can query properties or get information about when tasks were last called or triggers last seen.
-* Reaction: An animation to play when the rule matches. See ``creating-assets``
+* Reaction: An animation to play when the rule matches. See ``creating-animations``
 * Task: The task to enter when the rule matches.
   * It's possible to play a reaction without entering a new task but it's not generally recommended. Use the special task go_idle or long_reaction instead.
   * A Task can be interrupted by another rule, or a Task can transition to idle or sleep when it finishes
@@ -117,7 +117,7 @@ Triggers are sent programatically by calling the trigger method on the Robot obj
 | reboot robot | Robot has received the reboot command | |
 | reset robot | Robot has received  factory reset | |
 | saw cat | Kuri has detected a cat | |
-| saw dog | Kuri has detected a dog | | 
+| saw dog | Kuri has detected a dog | |
 | saw face | Kuri has detected a face | |
 | start_dance | Kuri is starting to dance to Bluetooth audio | |
 | stop_dance | Kuri is stopping dancing | |
@@ -141,7 +141,7 @@ Trigger is a tuple `(trigger_name, trigger_params_dict)`. Triggers can be sent i
 
 Params is a dictionary of task parameters, defined by the `task_params` field in the rule entry.
 
-Reaction is the name of the reaction to play, see ``Creating New Assets``
+Reaction is the name of the reaction to play, see ``Creating New Animations``
 
 The description for all the existing tasks can be found in the rules file itself.
 
