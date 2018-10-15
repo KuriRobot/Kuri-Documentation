@@ -4,20 +4,20 @@ title: Touch.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- cap touch
 ---
 
 ## Message Definition
 ```
-# true means touched
-# [FRONT_LEFT, LEFT, REAR_LEFT, CENTER, FRONT, REAR_RIGHT, RIGHT, FRONT_RIGHT]
 bool[] electrodes
 ```
 
 ## Arguments
 #### `electrodes`
-${description}
+An array of booleans that represent the eight touch sensors in this order:  
+FRONT_LEFT, LEFT, REAR_LEFT, CENTER, FRONT, REAR_RIGHT, RIGHT, FRONT_RIGHT  
+
+When set to true it means the sensor is being touched
 
 ## Related Documentation
 ``/mobile_base/touch``  

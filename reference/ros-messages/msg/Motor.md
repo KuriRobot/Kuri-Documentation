@@ -4,8 +4,9 @@ title: Motor.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- head
+- eyes
+- wheels
 ---
 
 ## Message Definition
@@ -25,10 +26,10 @@ bool  pushed
 
 ## Arguments
 #### `stalled`
-${description}
+True if this motor is stalled. The motor controller can not achieve the requested velocity within a small period of time.
 
 #### `pushed`
-${description}
+True if this motor being pushed. This indicates the motor is moving when no velocity is being commanded.
 
 ## Related Documentation
 ``Stall.msg``  

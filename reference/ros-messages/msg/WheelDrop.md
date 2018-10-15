@@ -4,14 +4,11 @@ title: WheelDrop.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- wheel drop
 ---
 
 ## Message Definition
 ```
-# Provides a wheeldrop sensor stae
-
 # wheel
 uint8 RIGHT = 0
 uint8 LEFT  = 1
@@ -26,11 +23,16 @@ uint8 state
 
 ## Arguments
 #### `wheel`
-${description}
+```
+Right == 0
+Left == 1
+```
 
 #### `state`
-${description}
+```
+Raised == 0
+Dropped == 1
+```
 
 ## Related Documentation
 ``Sensors.msg``  
-

@@ -1,23 +1,31 @@
 ---
 layout: reference
 title: GetEmbeddedRegs.srv
+package: mobile_base_driver
 category: service-message
-tags: 
-- ${tag}
-- ${tag} 
 ---
 
 ## Message Definition
 ```
-${message file}
+uint8 reg
+---
+uint32 version
+string githash
+uint32 error
+
+string reg_value
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `reg`
+The register number. See the [register number list](/RegisterNumberList.html)
+for register numbers.
 
-#### `${argument}`
-${description}
+#### `version`
+Defunct, not valid
 
-## Related Documentation
-``${name of associated service}``  
+#### `githash`
+The githash of the firmware version
+
+#### `error`
+Defunct, not valid

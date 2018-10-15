@@ -1,23 +1,23 @@
 ---
 layout: reference
 title: SetEmbeddedRegs.srv
+package: mobile_base_driver
 category: service-message
-tags: 
-- ${tag}
-- ${tag} 
 ---
 
 ## Message Definition
 ```
-${message file}
+uint8 reg
+string value
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `reg`
+The register number. See the
+[register number list](/RegisterNumberList.html)
+for register numbers.
 
-#### `${argument}`
-${description}
+#### `value`
+The value of the register.
 
-## Related Documentation
-``${name of associated service}``  

@@ -4,28 +4,27 @@ title: Led.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- chest light
 ---
 
 ## Message Definition
 ```
-# Provides a three color LED state
-
 uint8 red
 uint8 green
 uint8 blue
 ```
 
 ## Arguments
+For each of the arguments the value is the intensity of the LED where zero is off and 255 is brightest.
+
 #### `red`
-${description}
+Intensity of the red LED
 
 #### `green`
-${description}
+Intensity of the green LED
 
 #### `blue`
-${description}
+Intensity of the blue LED
 
 ## Related Documentation
 ``ChestLeds.msg``  

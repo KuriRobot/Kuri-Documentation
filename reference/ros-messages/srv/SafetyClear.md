@@ -1,23 +1,22 @@
 ---
 layout: reference
 title: SafetyClear.srv
+package: mobile_base_driver
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- cliff
+- bump
+- wheel
 ---
 
 ## Message Definition
 ```
-${message file}
+SafetyStatus clear
+---
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `clear`
+The bits in the safety status message to clear.
 
-#### `${argument}`
-${description}
-
-## Related Documentation
-``${name of associated service}``  
+Note: The safety status is latched this clears it if and only if the underlying condition isn't true anymore.

@@ -4,8 +4,8 @@ title: Stall.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- motor
+- stall
 ---
 
 ## Message Definition
@@ -24,10 +24,10 @@ Motor[5] motor
 
 ## Arguments
 #### `header`
-${description}
+Header type from std_msgs, contains time stamp, frame id, etc
 
 #### `motor`
-${description}
+Array of the motor messages for the five robot motors.
 
 ## Related Documentation
 ``/mobile_base/stall``  

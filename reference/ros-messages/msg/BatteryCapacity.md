@@ -4,8 +4,7 @@ title: BatteryCapacity.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- battery
 ---
 
 ## Message Definition
@@ -19,14 +18,15 @@ int8 rounded_pct # capacity percentage estimate, rounded to the nearest 5 and
 
 ## Arguments
 #### `mAh`
-${description}
+The capacity of the battery in mA hours.
 
 #### `pct`
-${description}
+The charge percentage
 
 #### `rounded_pct`
-${description}
+capacity percentage estimate, rounded to the nearest 5 and
+subjected to hysteresis so it can only change if the value has
+changed by at least 5
 
 ## Related Documentation
 ``Power.msg``  
- 

@@ -3,15 +3,14 @@ layout: reference
 title: Sensors.msg
 package: mobile_base_driver
 category: message
-tags: 
-- ${tag}
-- ${tag}
+tags:
+- bumper
+- touch
+- wheel drop 
 ---
 
 ## Message Definition
 ```
-# sensor state published at a fixed frequency by the driver
-
 Header header
 
 # XXX: sensor indices in their respective arrays does not necessarily
@@ -25,16 +24,16 @@ Touch              touch
 
 ## Arguments
 #### `header`
-${description}
+Header type from std_msgs, contains time stamp, frame id, etc
 
 #### `bumper`
-${description}
+Array of bumper messages with the state of the three bumper sensors.
 
 #### `wheeldrop`
-${description}
+Array of wheeldrop messages with the state of the wheel drop sensors. There is really only one wheeldrop and these will always have the same state.
 
 #### `touch`
-${description}
+The cap touch message showing the state of the cap touch sensor.
 
 ## Related Documentation
 ``/mobile_base/sensors``  

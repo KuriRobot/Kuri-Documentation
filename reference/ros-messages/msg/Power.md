@@ -4,8 +4,10 @@ title: Power.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- battery
+- dock
+- charging
+- power button
 ---
 
 ## Message Definition
@@ -23,31 +25,32 @@ BatteryCapacity battery
 
 ## Arguments
 #### `adc_channels`
-${description}
+The raw values from the ADC sensors for the power sensors
 
 #### `v_dock`
-${description}
+The dock voltage, only valid while on the dock
 
 #### `v_batt`
-${description}
+The battery voltage
 
 #### `i_batt`
-${description}
+The current to/from the battery.
 
 #### `t_batt`
-${description}
+Temperature of the battery
 
 #### `dock_present`
-${description}
+True if connected to the dock and the dock is providing power.
 
 #### `is_charging`
-${description}
+True is the batteryis charging.
 
 #### `power_button_pressed`
-${description}
+True if the button on the back of the robot is being pressed.
 
 #### `battery`
-${description}
+See the BatteryCapacity reference.
 
 ## Related Documentation
+``BatteryCapacity.msg``  
 ``/mobile_base/power``  

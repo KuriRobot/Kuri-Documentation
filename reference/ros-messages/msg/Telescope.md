@@ -4,8 +4,7 @@ title: Telescope.msg
 package: mobile_base_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- docking
 ---
 
 ## Message Definition
@@ -23,31 +22,31 @@ bool back_middle
 
 ## Arguments
 #### `header`
-${description}
+Header type from std_msgs, contains time stamp, frame id, etc
 
 #### `front_noise`
-${description}
+The front sensor sees any LED signal the frequency band used by the dock. Note, this will be true whether or not the signal is decoded into a valid LED code.
 
 #### `front_left`
-${description}
+The front sensor sees the left LED code from the dock
 
 #### `front_right`
-${description}
+The front sensor sees the right LED code from the dock
 
 #### `front_middle`
-${description}
+The front sensor sees the middle LED code from the dock
 
 #### `back_noise`
-${description}
+The back sensor sees any LED signal the frequency band used by the dock. Note, this will be true whether or not the signal is decoded into a valid LED code.
 
 #### `back_left`
-${description}
+The back sensor sees the left LED code from the dock
 
 #### `back_right`
-${description}
+The back sensor sees the right LED code from the dock
 
 #### `back_middle`
-${description}
+The back sensor sees the middle LED code from the dock
 
 ## Related Documentation
 ``/mobile_base/telescope``  

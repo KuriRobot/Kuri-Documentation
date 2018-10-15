@@ -6,13 +6,11 @@ package:
 - depth_sensor_driver
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- cliff sensor
 ---
 
 ## Message Definition
 ```
-
 # Provides a cliff sensor reading
 # This message is generated whenever a particular cliff sensor signals that the
 # robot approaches or moves away from a cliff.
@@ -41,10 +39,24 @@ float32 return_rate
 
 ## Arguments
 #### `sensor`
-${description}
+Identifies which sensor this message is for
+
+```
+RIGHT     = 0
+MIDRIGHT  = 1
+MIDLEFT   = 2
+LEFT      = 3
+BACKLEFT  = 4
+BACKRIGHT = 5
+```
 
 #### `state`
-${description}
+Detecting a cliff or not.
+
+```
+FLOOR = 0
+CLIFF = 1
+```
 
 #### `distance`
 ${description}

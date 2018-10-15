@@ -3,29 +3,42 @@ layout: reference
 title: mobile_base_driver
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- sensors
+- wheels
+- motors
 ---
 
 ## Overview
-${overview}
+This package contains the mobile_base node.
 
 ## Usage
-${usage}
+See the launch file docs, iris_comm.launch.
 
 ## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
+``mobile_base``  
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
+``SafetyClear.srv``  
+``SetEmbeddedRegs.srv``  
+``GetEmbeddedRegs.srv``  
+``PwrBtnLed.srv``  
+``SafetyOverride.srv``  
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``BatteryCapacity.msg``  
+``CliffArray.msg``  
+``Led.msg``  
+``SafetyStatus.msg``  
+``Telescope.msg``  
+``WheelTraj.msg``
+``Bumper.msg``  
+``CliffSensor.msg``  
+``Motor.msg``  
+``Sensors.msg``  
+``Touch.msg``  
+``WheelTrajPoint.msg``
+``ChestLeds.msg``  
+``Clothesline.msg``  
+``Power.msg``  
+``Stall.msg``  
+``WheelDrop.msg``
