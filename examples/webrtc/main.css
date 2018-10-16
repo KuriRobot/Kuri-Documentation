@@ -1,0 +1,277 @@
+body {
+	font-size: 1.1em;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	min-height: 100%;
+}
+h1, h2, h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+}
+h2 {
+	margin-top: 0.1em;
+	font-size: 1.8em;
+}
+header {
+	background-color:rgba(255,255,255,0.5);
+	padding-top: 5px;
+	margin: 0em;
+	padding: 1em;
+	height: 45px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+section {
+	clear: both;
+	margin: 0.5em;
+	padding: 1em;
+	min-height: 500px;
+	height: 100%;
+}
+footer {
+	text-align: center;
+	font-size: 14px;
+	color: #AAA;
+	clear: both;
+	margin-top: 8em;
+	width: 100%;
+	height: 30px;
+}
+input {
+	font-size: 1.3em;
+}
+input[type="text"] {
+	width: 200px;
+	position: relative;
+	top: 3px;
+}
+input[type="sendtext"] {
+	width: 25%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+	background-color: rgba(255,255,255,0.9);
+	position: relative;
+	bottom: 245px;
+	visibility: hidden;
+}
+video {
+	border: 0;
+	vertical-align: top;
+	visibility: hidden;
+}
+#chat_div {
+	width: calc(25% + 46px);
+	height: 200px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.375em;
+	bottom: 245px;
+	visibility: hidden;
+	overflow-y: scroll;
+	word-wrap: break-word;
+	position: relative;
+}
+/*Chat message bubble container*/
+.chatMessage {
+	margin-top: 6px;
+}
+.selfMessage {
+	text-align: right;
+}
+/*All chat message bubbles*/
+.chatMessage > div {
+	display: inline-block;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: calc(100% - 60px);
+	border: 1px solid rgba(145,145,145,0.8);
+	-webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.1);
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.1);
+	border-radius: 2px;
+}
+/*Self chat message bubbles*/
+.selfMessage > div {
+	background-color: rgba(178,229,255,0.6);
+}
+/*Remote chat message bubbles*/
+.remoteMessage > div {
+	background-color: rgba(226,226,226,0.6);
+}
+#chat_but {
+	position: relative;
+	bottom: 245px;
+	visibility: hidden;
+}
+.shadow {
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+#audio-only-container {
+	visibility: hidden;
+	color: red;
+}
+#share-container {
+	visibility: hidden;
+	padding-top: 5px;
+}
+#video-container {
+	text-align: center;
+}
+#self_view {
+	width: 160px;
+	height: 120px;
+	margin-right: 2em;
+}
+#remote_view {
+	width: 640px;
+	height: 480px;
+}
+#heading {
+	float: left;
+}
+#settings-container {
+	float: left;
+}
+#btn-container {
+	margin: 10px 10px;
+	padding-left: 10px;
+}
+.btn {
+	border:1px solid #CCCCCC;
+	-webkit-box-shadow: #FEFFFF 0px 1px 1px;
+	-moz-box-shadow: #FEFFFF 0px 1px 1px;
+	box-shadow: #FEFFFF 0px 1px 1px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding: 5px 8px 5px 8px;
+	text-decoration:none;
+	display:inline-block;
+	text-shadow: 0px 1px 0 rgba(255,255,255,1);
+	font-weight:bold;
+	color: #4A4A4A;
+	background-color: #E6E6E6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#CCCCCC));
+	background-image: -webkit-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -ms-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -o-linear-gradient(top, #E6E6E6, #CCCCCC);
+}
+.btn:hover:enabled {
+	cursor: pointer;
+}
+.btn:disabled {
+	color: #8a8a8a;
+}
+.btn:hover, .btn:disabled {
+	border:1px solid #ADADAD;
+	background-color: #cdcdcd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#cdcdcd), to(#b3b3b3));
+	background-image: -webkit-linear-gradient(top, #cdcdcd, #b3b3b3);
+	background-image: -moz-linear-gradient(top, #cdcdcd, #b3b3b3);
+	background-image: -ms-linear-gradient(top, #cdcdcd, #b3b3b3);
+	background-image: -o-linear-gradient(top, #cdcdcd, #b3b3b3);
+}
+
+/* iPad */
+@media screen and (max-width : 768px) {
+	h2 {
+		margin-top: 0.3em;
+		font-size: 1.8em;
+		width: 400px;
+	}
+	#self_view {
+		margin-bottom: 0.8em;
+		margin: 0.4em 0em;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+}
+/* iPhone 6 Plus */
+@media screen and (max-width : 414px) {
+	h2 {
+		margin-top: 0.3em;
+		font-size: 1.2em;
+		width: 260px;
+	}
+
+	input[type="text"] {
+		width: 120px;
+	}
+
+	section {
+		margin: 0em;
+		padding: 0em;
+		min-height: 500px;
+		height: 100%;
+	}
+
+	#self_view {
+		margin-bottom: 0.8em;
+		margin: 0.4em 0em;
+		transition: transform 0.5s;
+		-webkit-transition: -webkit-transform 500ms;
+	}
+
+	#remote_view {
+		width: 320px;
+		height: 280px;
+		transition: transform 0.5s;
+		-webkit-transition: -webkit-transform 500ms;
+	}
+}
+/* iPhone =< 5s */
+@media screen and (max-width : 320px) {
+	h2 {
+		margin-top: -0.3em;
+		font-size: 1.1em;
+		width: 200px;
+	}
+
+	input[type="text"] {
+		width: 100px;
+	}
+
+	section {
+		margin: 0em;
+		padding: 0em;
+		min-height: 600px;
+		height: 100%;
+	}
+
+	#self_view {
+		width: 160px;
+		height: 120px;
+		margin: 0.4em 0em;
+		transition: transform 0.5s;
+		-webkit-transition: -webkit-transform 500ms;
+	}
+	#remote_view {
+		width: 320px;
+		height: 280px;
+		transition: transform 0.5s;
+		-webkit-transition: -webkit-transform 500ms;
+	}
+
+	#share-container {
+		display: none;
+	}
+}

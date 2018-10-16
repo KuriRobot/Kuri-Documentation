@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WebRTC Demo</title>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="signaling_channel.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="heading">
+                <h2>Simple flubnub WebRTC Example</h2>
+            </div>
+        </header>
+        <section id="main-section">
+            <div id="settings-container">
+                flubnub host <input type="text" id="flubnub_host" value="localhost" size="10"></br>
+                flubnub port <input type="text" id="flubnub_port" value="9000" size="10"></br>
+                robot UUID <input type="text" id="session_txt" value="" size="10"></br>
+                <input class="btn" type="button" id="join_but" value="Join" disabled>
+                <div id="audio-only-container">Audio-only call</div>
+                <div id="share-container">
+                    Send link to a friend: <a id="share_link" target="_blank" href=""></a>
+                </div>
+            </div>
+            <div id="video-container">
+                <video id="self_view" class="shadow owr-overlay-video" autoplay muted></video>
+                <video id="remote_view" class="shadow owr-overlay-video" autoplay></video>
+            </div>
+            <div id="chat_div"></div>
+            <div id="chat-container">
+                <input type="sendtext" id="chat_txt" disable placeholder="Type here">
+                <input type="button" class="btn" id="chat_but" value="Send">
+            </div>
+            <div id="log_div"></div>
+        </section>
+    </body>
+</html>
