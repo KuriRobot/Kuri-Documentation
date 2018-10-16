@@ -23,7 +23,7 @@ CliffSensor[] cliff
 ## Arguments
 
 #### `header`
-${description}
+normal ROS header with the frame and stamp for this array of cliff messages
 
 #### `cliff`
 Array of cliff sensor messages
@@ -31,5 +31,6 @@ Array of cliff sensor messages
 This can be either the front cliff sensors or the rear cliff sensors. The front cliff sensors are an array of four sensors that come from the depth sensor. The rear cliff sensor is an array of two that comes from the two sensors on the back bottom of the robot.
 
 ## Related Documentation
+``CliffSensor.msg``
 ``/depthscan/front_cliff``  
 ``/mobile_base/rear_cliff``

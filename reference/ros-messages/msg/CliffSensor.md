@@ -39,7 +39,8 @@ float32 return_rate
 
 ## Arguments
 #### `sensor`
-Identifies which sensor this message is for
+Identifies which sensor this message is for (only LEFT, MIDLEFT, RIGHT, BACKLEFT, and BACKRIGHT are used;
+MIDRIGHT (1) is no longer used)
 
 ```
 RIGHT     = 0
@@ -59,10 +60,10 @@ CLIFF = 1
 ```
 
 #### `distance`
-${description}
+Estimated distance to the floor (only used for rear cliff sensors)
 
 #### `return_rate`
-${description}
+Return rates as returned by the VL6180X cliff sensors (rear cliff sensors only).
 
 ## Related Documentation
 ``CliffArray.msg``  

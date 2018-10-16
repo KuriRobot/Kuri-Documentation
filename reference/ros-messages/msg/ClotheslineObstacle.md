@@ -4,8 +4,12 @@ title: ClotheslineObstacle.msg
 package: obstacle_detector
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- imu
+- may_nav
+- navigation
+- motor stall
+- tilt
+- wheel drop
 ---
 
 ## Message Definition

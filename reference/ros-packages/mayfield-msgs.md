@@ -3,29 +3,17 @@ layout: reference
 title: mayfield_msgs
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- ros-messages
 ---
 
 ## Overview
-${overview}
-
-## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
+Common ROS messages.
 
 ## Service Messages
-``${srv}``  
-``${srv}``  
+``SetString.srv``  
+``StringExchange.srv``  
 
 ## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+``KeyValue.msg``  
+``KeyValueArray.msg``  
+``NodeStatus.msg``  

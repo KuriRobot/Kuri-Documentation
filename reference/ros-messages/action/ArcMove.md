@@ -4,9 +4,11 @@ title: ArcMove.action
 package: mobile_base_driver
 category: action-message
 tags: 
-- ${tag}
-- ${tag}
+- wheels
+- mobile base
 ---
+
+Note: This message is deprecated and no longer used in any Kuri software other than tests.
 
 ## Message Definition
 ```
@@ -23,13 +25,22 @@ float32 duration
 ```
 
 ## Arguments
-#### `${argument}`
-${description}
+#### `arc_len`
+arc_length of the curve we want
+the robot to traverse in meters
 
-#### `${argument}`
-${description}
+#### `linear_velocity`
+velocity we want the robot to traverse the arc
+
+#### `angle`
+(radians) a positive angle means a counter-clockwise
+rotation. Can rotate full turns and more.
+
+#### `angular_velocity`
+a velocity to rotate at
+
+#### `duration`
+a maximum duration to rotate for
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
-
+``mobile_base/arc_move``
