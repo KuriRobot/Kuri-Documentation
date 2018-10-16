@@ -4,8 +4,9 @@ title: Exchange.msg
 package: audio_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- voice command
+- transcription
+- commands
 ---
 
 ## Message Definition
@@ -17,13 +18,14 @@ string transcription
 
 ## Arguments
 #### `commands`
-${description}
+List of ``SoundHoundCommand``s resulting from the most recent transcribed 
+request
 
 #### `error`
-${description}
+An error message, if any
 
 #### `transcription`
-${description}
+The plain text transcription of the last detected voice command
 
 ## Related Documentation
 ``/audio/voice_delegate/exchange``  

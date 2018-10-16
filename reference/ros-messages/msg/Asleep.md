@@ -4,8 +4,8 @@ title: Asleep.msg
 package: audio_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- listening
+- wake word
 ---
 
 ## Message Definition
@@ -14,7 +14,7 @@ tags:
 ```
 
 ## Arguments
-There are no arguments. This file is to copy the Empty message from std_msgs
+The Asleep message contains no arguments
 
 ## Related Documentation
 ``/audio/voice_delegate/asleep``  

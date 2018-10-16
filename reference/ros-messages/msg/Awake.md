@@ -4,8 +4,7 @@ title: Awake.msg
 package: audio_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- wake word
 ---
 
 ## Message Definition
@@ -17,13 +16,16 @@ float32 score
 
 ## Arguments
 #### `direction`
-${description}
+Vector (x, y, z) to the detected wake word speaker, relative to the direction
+Kuri is facing before the wake word is heard
 
 #### `relative_angle`
-${description}
+Angle of detected wake word speaker, relative to the direction Kuri is facing
+before the wake word is heard
 
 #### `score`
-${description}
+Confidence score (0.0-1.0) associated with the wake word that triggered Kuri 
+to wake up
 
 ## Related Documentation
 ``/audio/voice_delegate/awake``    

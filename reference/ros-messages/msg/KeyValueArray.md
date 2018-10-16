@@ -4,8 +4,7 @@ title: KeyValueArray.msg
 package: mayfield_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- voice commands
 ---
 
 ## Message Definition
@@ -15,7 +14,8 @@ KeyValue[] key_values
 
 ## Arguments
 #### `key_values`
-${description}
+An array of ``KeyValue`` messages
 
 ## Related Documentation
+``SoundHoundCommand.msg``  
 ``/voice_commands/update``  

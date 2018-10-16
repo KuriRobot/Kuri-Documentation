@@ -4,8 +4,7 @@ title: Deaf.msg
 package: audio_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- deaf
 ---
 
 ## Message Definition
@@ -14,8 +13,7 @@ tags:
 ```
 
 ## Arguments
-There are no arguments. This file is to copy the Empty message from std_msgs
+The Deaf message contains no arguments
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``/audio/voice_delegate/deafen``  

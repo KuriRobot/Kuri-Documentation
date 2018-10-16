@@ -1,23 +1,28 @@
 ---
 layout: reference
 title: Snooze.srv
+package: audio_msgs
 category: service-message
-tags: 
-- ${tag}
-- ${tag} 
+tags:
+- wake word
 ---
 
 ## Message Definition
 ```
-${message file}
+
+---
+string state
 ```
 
-## Arguments
-#### `${argument}`
-${description}
+## Request
+Request contains no arguments
 
-#### `${argument}`
-${description}
+## Response
+#### `state`
+Current state of robot audio, eg. `Awake` (listening for voice command), 
+`Asleep` (listening for wake word), or `Deaf` (not listening). It is expected 
+that Kuri would report a state of `Asleep` and be actively listening for the 
+wake word after ``/audio/voice_delegate/snooze``is called with this message.
 
 ## Related Documentation
-``${name of associated service}``  
+``/audio/voice_delegate/snooze``  

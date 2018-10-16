@@ -1,23 +1,29 @@
 ---
 layout: reference
 title: WakeUp.srv
+package: audio_msgs
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- wake word
+- transcription 
 ---
 
 ## Message Definition
 ```
-${message file}
+
+---
+string state
 ```
 
-## Arguments
-#### `${argument}`
-${description}
+## Request
+Request contains no arguments
 
-#### `${argument}`
-${description}
+## Response
+#### `state`
+Current state of robot audio, eg. `Awake` (listening for voice command), 
+`Asleep` (listening for wake word), or `Deaf` (not listening). It is expected 
+that Kuri would be `Awake`, or actively transcribing audio after 
+``/audio/voice_delegate/wake_up`` is called with this message.
 
 ## Related Documentation
-``${name of associated service}``  
+``/audio/voice_delegate/wake_up``  

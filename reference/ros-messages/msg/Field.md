@@ -4,8 +4,7 @@ title: Field.msg
 package: audio_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- SEDiag
 ---
 
 ## Message Definition
@@ -19,20 +18,19 @@ string mode
 
 ## Arguments
 #### `name`
-${description}
+Name of SEDiag field
 
 #### `type`
-${description}
+Primitive C type used to represent this field
 
 #### `length`
-${description}
+Size of the data structure used to store the field value
 
 #### `description`
-${description}
+Description of the field
 
 #### `mode`
-${description}
+Supported interactions with the field: read, write or both
 
 ## Related Documentation
-``${name of associated topic}``  
-``${name of associated topic}``  
+``ListFields.srv``

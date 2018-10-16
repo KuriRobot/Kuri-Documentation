@@ -3,21 +3,27 @@ layout: reference
 title: Deafen.srv
 category: service-message
 tags: 
-- ${tag}
-- ${tag} 
+- wake word
+- deaf
+- disable listening
 ---
 
 ## Message Definition
 ```
-${message file}
+
+---
+string state
 ```
 
-## Arguments
-#### `${argument}`
-${description}
+## Request
+Request contains no arguments
 
-#### `${argument}`
-${description}
+## Response
+#### `state`
+Current state of robot audio, eg. `Awake` (listening for voice command), 
+`Asleep` (listening for wake word), or `Deaf` (not listening). It is expected 
+that Kuri would be `Deaf`, or not listening for wake words or voice commands 
+after ``/audio/voice_delegate/deafen`` is called with this message.
 
 ## Related Documentation
-``${name of associated service}``  
+``/audio/voice_delegate/deafen``  

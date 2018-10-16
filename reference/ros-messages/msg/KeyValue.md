@@ -4,8 +4,9 @@ title: KeyValue.msg
 package: mayfield_msgs
 category: message
 tags: 
-- ${tag}
-- ${tag}
+- vision command
+- voice command
+- command
 ---
 
 ## Message Definition
@@ -17,13 +18,13 @@ string v
 
 ## Arguments
 #### `k`
-${description}
+The "key", or unique identifier for an item of data
 
 #### `v`
-${description}
+The "value", or data that is identified in the key-value pair
 
 ## Related Documentation
-``KeyValueArray.msg``  
 ``Command.msg``  
+``KeyValueArray.msg``  
 ``SoundHoundCommand.msg``  
 ``VisionCmdMsg.msg``  
