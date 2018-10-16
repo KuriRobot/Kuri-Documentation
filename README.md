@@ -41,9 +41,9 @@ under each section
 
 ### Reference
 Information regarding APIs and parameters  
-- [Bluetooth Low Energy](/reference/btle)  
-- [Kuri's Custom Depth Sensor](/reference/depth-sensor)  
-- [ROS Launch Files](/reference/ros-launch-files)  
+- [Bluetooth Low Energy](/reference/btle/using-the-btle-interface.md/)  
+- [Kuri's Custom Depth Sensor](/reference/depth-sensor/using-depth-sensor-interface.md)  
+- [ROS Launch Files](/reference/ros-launch-files/)  
 - [ROS Messages](/reference/ros-messages)  
 - [ROS Nodes](/reference/ros-nodes)  
 - [ROS Packages](/reference/ros-packages)  
@@ -55,7 +55,6 @@ APIs
 - [Developer Tools](/guides/developer-tools)
 - [Best Practices](/guides/best-practices)
 - [Behavior](/guides/behavior)
-- [Hardware](/guides/hardware)
 - [Advanced](/guides/advanced)
 
 
