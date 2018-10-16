@@ -3,29 +3,17 @@ layout: reference
 title: signalessence
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- Signal Essence
+- echo cancellation
+- beam forming
+- spatial filtering
 ---
 
 ## Overview
-${overview}
+This package contains the precompiled binary and associated headers for the
+[Signal Essence](https://signalessence.com) library.
 
 ## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+This library is used in ``audio_realtime`` to provide echo cancellation, beam
+forming and spatial fltering. The "system-in" audio buffer set in 
+``audio_realtime`` contains audio processed by this library.

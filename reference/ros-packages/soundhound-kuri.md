@@ -3,29 +3,16 @@ layout: reference
 title: soundhound_kuri
 category: package
 tags: 
-- ${tag}
-- ${tag}
+- transcription
+- voice commands
+- Houndify
 ---
 
 ## Overview
-${overview}
+Ths package contains the static library and associated header used for wake 
+word detection, as well as a modified (for reduction of size) copy of the 
+[Houndify](https://houndify.com) C++ SDK.
 
 ## Usage
-${usage}
-
-## Nodes
-``${node}``  
-``${node}``  
-
-### Action Messages
-``${action}``  
-``${action}``  
-
-## Service Messages
-``${srv}``  
-``${srv}``  
-
-## Messages
-``${msg}``  
-``${msg}``  
-``${msg}``  
+The wake word and SDK libraries are linked during the catkin build process 
+for ``audio_voice_delegate``. 
