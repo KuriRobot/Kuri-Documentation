@@ -31,7 +31,7 @@ These are behaviors initiated by user action while in override mode.
 * [Drive](live_behavior/drive.md)
 * [Drive to Image Point](live_behavior/drive_to_image_point.md)
 * [Live Navigate](live_behavior/live_navigate.md)
-* [Microphone](live_behavior/microphone.md)
+* Microphone
 * [Play Romoji](live_behavior/romoji.md)
 
 ## Mood and Expressiveness
