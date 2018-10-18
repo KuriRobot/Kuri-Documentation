@@ -21,14 +21,11 @@ This board is the main board that connects and controls all other low level hard
 - Cliff Sensors (2 in rear)
 - Wheeldrop (MTR_DROP)
 - Pan Motor homing sensor
-- Camera
-
 
 ## Connectors
 - ``Head Board``
 - ``High Speed Board``
 - ``Depth Sensor Board``
-- ``Camera Board``
 - left and right drive motors
 - Wheeldrop sensor
 - Pan Motor
@@ -38,7 +35,6 @@ This board is the main board that connects and controls all other low level hard
 - rear cliff sensors
 - battery
 - master switch
-- push button power switch
 
 ## Schematic
 ![Low Speed Board Schematic File](assets/schematics/CE-00017_LowSpeedBoard_CalicoJack_G04-Schematic Prints.PDF)
