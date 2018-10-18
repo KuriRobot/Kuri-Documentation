@@ -20,5 +20,5 @@ This Board lives in the dock behind the charging contacts.
 - Charging Contacts
 
 ## Schematic
-![Dock Board Schematic File](assets/schematics/CE-00036_DockBoard_Tortuga_J05-Schematic Prints.PDF)
+[Dock Board Schematic File](assets/schematics/CE-00036_DockBoard_Tortuga_J05-Schematic Prints.PDF)
 

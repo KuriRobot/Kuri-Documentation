@@ -19,5 +19,5 @@ This is the other main control board in Kuri besidees the Low Speed Board. It al
 - Camera Board
 
 ## Schematic
-![High Speed Board Schematic File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10-Schematic Prints REDACTED.PDF)
-![High Speed Board Pin Mapping File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10_PinMapping.PDF)
+[High Speed Board Schematic File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10-Schematic Prints REDACTED.PDF)
+[High Speed Board Pin Mapping File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10_PinMapping.PDF)
