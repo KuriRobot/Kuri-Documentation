@@ -2,7 +2,7 @@
 In this state, Kuri autonomously navigates to a point in Kuri's vision chosen
  by the user.
  
-> NOTE: This is not supported in the Kuri app for `cupcake`
+> NOTE: This is not supported in the Kuri app or by gizmo_brain in the final version. Drive to point commands can still be sent directly to the nav service
 
 ## Entering Drive to Image Point
 * Entered when the user taps a location in Kuri's vision
