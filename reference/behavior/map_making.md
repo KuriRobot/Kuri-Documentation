@@ -34,8 +34,7 @@ docking specific statuses to determine the state of its commands.
 
 ## Statuses
 
-In addition to the [normal robot statuses](../mqtt/status_endpoint.md), mapping introduces two new
-domains, `SLAM` and `TOUR2`.
+Mapping uses two status domains: `SLAM` and `TOUR2`.
 
 `TOUR2` is the domain used for overall status of the mapping stack. These are
 intended for the app to use to tell whether the robot is mapping and what type
