@@ -20,5 +20,5 @@ This is the other main control board in Kuri besidees the Low Speed Board. It al
 - Camera Board
 
 ## Schematic
-![Bump Sensor Circuit Schematic File](assets/schematics/CE-00020_BumpSwitches_Drake_E01-Schematic Prints.PDF)
-
+![High Speed Board Schematic File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10-Schematic Prints REDACTED.PDF)
+![High Speed Board Pin Mapping File](assets/schematics/CE-00023_HighSpeedBoard_Morgan_A10_PinMapping.PDF)
