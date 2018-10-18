@@ -9,9 +9,9 @@ Observer mode allows users who are physically interacting with the robot to know
 A minimum of one webrtc connection is made to the robot.
 
 ### Behavior
-* When the robot enter observer mode we play the teleop start sound, https://github.com/mayfieldrobotics/assets/blob/develop/sounds/teleop_start.wav.
+* When the robot enter observer mode we play the teleop start sound, teleop_start.wav.
 * The robot then pulses the chest LED red as a temporary animation.
-* When the mode ends the robot play the teleop end sound https://github.com/mayfieldrobotics/assets/blob/develop/sounds/teleop_end.wav.
+* When the mode ends the robot play the teleop end sound teleop_end.wav.
 * A message is posted to the RobotStatus domain LIVE_MODE with status OBSERVER_MODE
 
 ### Post-Condition
