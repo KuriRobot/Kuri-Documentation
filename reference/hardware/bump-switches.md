@@ -14,7 +14,6 @@ This is not exactly a board. Just a very simple circuit connecting the three bum
 ## Sensors
 - Bump Sensors (3)
 
-
 ## Connectors
 - ``Low Speed Board``
 

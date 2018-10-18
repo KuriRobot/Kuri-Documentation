@@ -14,7 +14,6 @@ These are tiny boards that mount into the skins of Kuri. There are 4 around the 
 ## Sensors
 - Microphone
 
-
 ## Connectors
 - ``Low Speed Board``
 

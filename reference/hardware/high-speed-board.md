@@ -14,7 +14,6 @@ This is the other main control board in Kuri besidees the Low Speed Board. It al
 ## Sensors
 - Camera
 
-
 ## Connectors
 - ``Power Button Board``
 - Camera Board

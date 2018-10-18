@@ -1,4 +1,3 @@
-
 ---
 layout: reference
 title: Cliff Sensor Board, Bonny

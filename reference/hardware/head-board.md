@@ -5,7 +5,6 @@ category: Hardware PCBA
 tags:
 - head board
 - Barbarossa
-
 ---
 
 ## Overview
@@ -15,7 +14,6 @@ This board lives inside of the head of the robot and controls the tilt and eyeli
 - capacitive touch sensor
 - tilt motor homing senor
 - eyelid motor homing sensor
-
 
 ## Connectors
 - ``Low Speed Board``
