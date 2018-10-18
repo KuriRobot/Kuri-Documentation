@@ -8,7 +8,7 @@ Idle is a transitional state in the Kuri Soul state machine.  It introduces a
 to the idle state
 
 ## Idle Behavior
-* The idle state will last for five seconds
+* The idle state will last for up to one second
     * If Kuri is on the dock, transition to [sleep](sleep.md) unless Kuri is 
     in [Pedestal](../logical_concurrent_states/pedestal.md) mode
     * If Kuri's battery level is [critical](../named_constants.md), attempt 
