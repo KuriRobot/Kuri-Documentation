@@ -22,5 +22,5 @@ This board lives inside of the head of the robot and controls the tilt and eyeli
 - Tilt motor
 
 ## Schematic
-[Head Board Schematic File](assets/schematics/CE-00024_HeadBoard_Barbarossa_D01-Schematic Prints.PDF)
+[Head Board Schematic File](../../assets/schematics/CE-00024_HeadBoard_Barbarossa_D01-Schematic&#32;Prints.PDF)
 

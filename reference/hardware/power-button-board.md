@@ -19,5 +19,5 @@ This board contains push buttons for the power and volume up/down control. It co
 - ``High Speed Board``
 
 ## Schematic
-[Power Button Board Schematic File](assets/schematics/CE-00026_VolumePowerButtonBoard_MadameCheng_F02-Schematic Prints.PDF)  
+[Power Button Board Schematic File](../../assets/schematics/CE-00026_VolumePowerButtonBoard_MadameCheng_F02-Schematic&#32;Prints.PDF)  
 
