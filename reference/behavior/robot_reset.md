@@ -1,12 +1,6 @@
 # Robot Reset and Removal from Account
 
-This page is a technical specification for the
-[Robot Reset and Removal from Account](https://mayfieldrobotics.atlassian.net/wiki/spaces/PR/pages/54762096/6.4+Robot+Reset+and+Removal+from+Account)
-intent ("robot reset" in short), which is one of the
-[Infrastructure Intents](https://mayfieldrobotics.atlassian.net/wiki/spaces/PR/pages/54833150/6.+Infrastructure+Intents)
-Thus, it does not cover related but distinct topics such as Backup & Restore
-or the Recovery Mode.
-
+This covers the various types of reset and shutdown
 
 # Forced Shutdown
 
@@ -30,9 +24,7 @@ This is the least aggressive of all the types of robot resets.
 This shutdown shall be implemented by power cycling Kuri, which will result in 
 all subsystems shutting down. A user can then turn Kuri back on again.
 
-- The user powers down Kuri as described in the
-  [Rear Light and Power Button](https://mayfieldrobotics.atlassian.net/wiki/spaces/PR/pages/54071856/6.8+Rear+Light+and+Power+Button)
-  intent and corresponding technical specification.
+- The user powers down Kuri by holding the rear power button for 5+ seconds
   - This power down process permits `gizmo` to shut down gracefully.
 - At this point Kuri is powered off and all subsystems are shut down.
 - The user then presses Kuri's back power button once and releases.
