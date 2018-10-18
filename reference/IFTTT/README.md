@@ -1,4 +1,8 @@
-# IFTTT
+---
+layout: reference
+title: IFTTT
+category: IFTTT
+---
 
 ## Requirements
 Robot can trigger IFTTT trigger and react to IFTTT action according to user defined IFTTT Applets.

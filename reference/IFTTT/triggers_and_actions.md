@@ -1,4 +1,8 @@
-# Kuri IFTTT Triggers and Actions 
+---
+layout: reference
+title: Triggers and Actions
+category: IFTTT
+---
 
 ## Kuri Triggers
 

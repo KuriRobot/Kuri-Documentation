@@ -1,4 +1,9 @@
-# Cloud Integration for IFTTT
+---
+layout: reference
+title: Cloud Integration
+category: IFTTT
+---
+
 
 ## Requirements
 Cloud has to act as a proxy for IFTTT to the robot. Cloud will interpret IFTTT actions and send MQTT messages to a robot specific command to perform the action. It will also store IFTTT trigger events sent by the robot to send to IFTTT.

@@ -1,4 +1,8 @@
-# User Notification for IFTTT
+---
+layout: reference
+title: User Notification
+category: IFTTT
+---
 
 Cloud will communicate with app over the `kuri/{environment}/ifttt_event/{robot-uuid}` topic for IFTTT relating events.
 

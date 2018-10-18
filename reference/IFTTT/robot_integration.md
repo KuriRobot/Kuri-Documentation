@@ -1,4 +1,8 @@
-# Robot Integration for IFTTT
+---
+layout: reference
+title: Robot Integration
+category: IFTTT
+---
 
 All MQTT messages will follow the format outlined in the [MQTT section](../../mqtt/README.md). Only the topic and the `payload` property of the MQTT message is outlined below.
 

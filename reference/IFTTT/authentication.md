@@ -1,4 +1,8 @@
-# IFTTT Authentication
+---
+layout: reference
+title: IFTTT Authentication
+category: IFTTT
+---
 
 ## Workflow
 
