@@ -16,7 +16,7 @@ This board contains push buttons for the power and volume up/down control. It co
 - volume button (up and down)
 
 ## Connectors
-- ``Low Speed Board``
+- ``High Speed Board``
 
 ## Schematic
 ![Bump Sensor Circuit Schematic File](assets/schematics/CE-00020_BumpSwitches_Drake_E01-Schematic Prints.PDF)
