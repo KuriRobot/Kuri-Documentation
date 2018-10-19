@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Chest Light Board, O'Malley
-category: Hardware PCBA
+title: Chest Light Board
+category: Hardware
 tags:
 - chest light
 - O'Malley

@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: High Speed Board, Morgan
-category: Hardware PCBA
+title: High Speed Board
+category: Hardware
 tags:
 - high speed board
 - Morgan

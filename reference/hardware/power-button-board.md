@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Power Button Board, Madame Cheng
-category: Hardware PCBA
+title: Power Button Board
+category: Hardware
 tags:
 - power button
 - volume buttons

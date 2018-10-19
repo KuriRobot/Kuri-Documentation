@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Microphone Board, Kidd
-category: Hardware PCBA
+title: Microphone Board
+category: Hardware
 tags:
 - microphones
 - audio

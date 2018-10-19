@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Head Board, Barbarossa
-category: Hardware PCBA
+title: Head Board
+category: Hardware
 tags:
 - head board
 - Barbarossa

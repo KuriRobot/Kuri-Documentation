@@ -1,9 +1,10 @@
 ---
 layout: reference
-title: Cliff Sensor Board, Bonny
-category: Hardware PCBA
+title: Cliff Sensor Board
+category: Hardware
 tags:
 - cliff sensor
+- Bonny
 ---
 
 ## Overview

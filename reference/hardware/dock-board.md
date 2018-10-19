@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Dock Board, Tortuga
-category: Hardware PCBA
+title: Dock Board
+category: Hardware
 tags:
 - dock
 - charging

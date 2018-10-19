@@ -1,7 +1,7 @@
 ---
 layout: reference
-title: Low Speed Board, Calico Jack
-category: Hardware PCBA
+title: Low Speed Board
+category: Hardware
 tags:
 - low speed board
 - Calico Jack
