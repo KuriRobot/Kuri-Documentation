@@ -1,0 +1,11 @@
+Designator,Quantity,Description,Manufacturer,Mfr PN
+
+"D1","1","LED Amber 0402, 1.95V","Panasonic","LNJ447W84RA1"
+"D2","1","RGB LED 1mm SMT","Lumex","SML-LX0404SIUPGUSB"
+"J1","1","JST-PA 12 Pins","JST","B12B-PASK(LF)(SN)"
+"R1, R2","2","RES, 0805, 0 ohms, 1%, 0.25W","KOA","RK73Z2ATTD"
+"R3, R6","2","RES, 0805, 681 ohms, 1%, 0.25W","KOA","RK73H2ATTD6810F"
+"R4","1","RES, 0805, 232 ohms, 1%, 0.25W","KOA","RK73H2ATTD2320F"
+"R5","1","RES, 0805, 102 ohms, 1%, 0.25W","KOA","RK73H2ATTD1020F"
+"SW1","1","SWITCH, SNAP DOME ADHESIVE ASSY","Snaptron","S994606"
+"SW2, SW3","2","Tactile switch SPST SMT, 260gf 4.3mm height","TE Connectivity","1977223-6"
