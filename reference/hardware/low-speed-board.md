@@ -37,5 +37,5 @@ This board is the main board that connects and controls all other low level hard
 - master switch
 
 ## Schematic
-[Low Speed Board Schematic File](../../assets/schematics/CE-00017_LowSpeedBoard_CalicoJack_G04-Schematic&#32;Prints.PDF)
+[Low Speed Board Schematic File](/assets/schematics/CE-00017_LowSpeedBoard_CalicoJack_G04-Schematic&#32;Prints.PDF)
 

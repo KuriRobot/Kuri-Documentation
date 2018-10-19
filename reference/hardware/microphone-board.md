@@ -18,5 +18,5 @@ These are tiny boards that mount into the skins of Kuri. There are 4 around the 
 - ``Low Speed Board``
 
 ## Schematic
-[Michrophone Board Schematic File](../../assets/schematics/CE-00029_MicrophoneBoard_Kidd_D01-Schematic&#32;Prints.PDF)
+[Michrophone Board Schematic File](/assets/schematics/CE-00029_MicrophoneBoard_Kidd_D01-Schematic&#32;Prints.PDF)
 

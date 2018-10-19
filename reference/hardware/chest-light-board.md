@@ -18,5 +18,5 @@ This board lives in Kuri's chest and contains a double ring of LEDs
 - ``Low Speed Board``
 
 ## Schematic
-[Chest Light Board Schematic File](../../assets/schematics/CE-00041_ChestLight_OMalley_F01-Schematic&#32;Prints.PDF)
+[Chest Light Board Schematic File](/assets/schematics/CE-00041_ChestLight_OMalley_F01-Schematic&#32;Prints.PDF)
 
