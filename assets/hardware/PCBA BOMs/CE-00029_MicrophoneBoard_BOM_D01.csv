@@ -1,0 +1,10 @@
+Designator,Quantity,Description,Manufacturer,Mfr PN
+
+"C1","1","CAP, 1206, 1uF, 50V","Kemet","C1206C105K5RACTU"
+"C2","1","CAP, 0603, 100nF, 50V","Kemet","C0603C104K5RACTU"
+"C3","1","CAP, 0603, 470pF, 50V","Kemet","C0603C471G5GACTU"
+"J1","1","LATCHING HEADER, 6 POSITIONS, 2X3, 2.0MM","Amphenol","98424-F52-06ALF"
+"R1","1","RES, 0603, 100K ohms, 1%, 0.1W","KOA","RK73H1JTTD1003F"
+"R2","1","RES, 0603, 49.9 ohms, 1%, 0.1W","KOA","RK73H1JTTD49R9F"
+"U1","1","MICROPHONE, MEMS, I2C","Invensense","ICS-43432"
+"U2","1","M74VHC1GT125DF1G CMOS Level Shifter","ON Semiconductor","M74VHC1GT125DF1G"

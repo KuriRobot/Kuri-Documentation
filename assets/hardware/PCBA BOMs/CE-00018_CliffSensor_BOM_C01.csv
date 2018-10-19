@@ -1,0 +1,6 @@
+Designator,Quantity,Description,Manufacturer,Mfr PN
+
+"C1","1","CAP, 0603, 220nF, 6.3V","Kemet","C0603C224K9RACTU"
+"C2","1","CAP, 0603, 4.7uF, 6.3V","Kemet","C0603C475K9PACTU"
+"J1","1","LATCHING HEADER, TH, 6 POSITIONS, 2X3, 2.0MM","Amphenol","98414-G06-06LF"
+"U1","1","VL6180X","ST","VL6180XV0NR/1"

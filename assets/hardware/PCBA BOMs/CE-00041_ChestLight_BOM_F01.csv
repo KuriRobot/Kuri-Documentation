@@ -1,0 +1,16 @@
+Designator,Quantity,Description,Manufacturer,Mfr PN
+
+"C1, C13, C14, C15, C16","5","CAP, 1206, 1uF, 50V","Kemet","C1206C105K5RACTU"
+"C2, C5, C6, C7, C8, C9, C10, C11, C12","9","CAP, 0805, 100nF, 50V","Kemet","C0805C104K5RACTU"
+"C3, C4","2","CAP, 0805, 22pF, 50V","Kemet","C0805C220G5GACTU"
+"J1","1","JST-PA 6 Pins Side Entry","JST","S06B-PASK-2(LF)(SN)"
+"Q1","1","MOSFET, P-CHANNEL, 20V, 4.2A, SOT23","Diodes Inc.","DMG2305UX-13"
+"R1, R2, R3, R5, R8","5","RES, 0805, 10K ohms, 1%, 0.25W","KOA","RK73H2ATTD1002F"
+"R6","1","RES, 0805, 562 ohms, 1%, 0.25W","KOA","RK73H2ATTD5620F"
+"R7","1","RES, 0805, 100K ohms, 1%, 0.25W","KOA","RK73H2ATTD1003F"
+"R9","1","RES, 0805, 10 ohms, 1%, 0.25W","KOA","RK73H2ATTD10R0F"
+"U0, U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14","15","WS2812B Addressable RGB LED","Worldsemi","WS2812B"
+"U15","1","8-bit AVR Microcontroller, 1.8-5.5V, 20MHz, 4KB Flash, 256 Bytes EEPROM, 256 Bytes SRAM, 20-pin MLF, Industrial Grade (-40°C to 85°C), Pb-Free, Reel","Microchip","ATTINY4313-MUR"
+"U16","1","SN74LV1T08DBVR 2-Input AND Gate","Texas Instruments","SN74LV1T08DBVR"
+"U17, U18","2","M74VHC1GT125DF1G CMOS Level Shifter","ON Semiconductor","M74VHC1GT125DF1G"
+"Y1","1","ABLS-16.000MHZ-D-4-T","Abracon LLC","ABLS-16.000MHZ-D-4-T"
