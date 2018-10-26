@@ -37,6 +37,26 @@ passwd
 This command will prompt you for the current password and for a new one.
 
 
+## Using SSH public key authentication
+
+This step makes connecting to your robot more secure as no password has to interactively
+be typed too log in, and it also makes it more convenient for the same reason.
+
+### Linux & macOS
+
+1. generate a key pair
+   ```
+   ssh-keygen
+   ```
+2. copy the public key to the robot
+   ```
+   cat ~/.ssh/id_rsa.pub | ssh mayfield@kuri-XXXXX.local "mkdir -pm 0700 ~/.ssh && cat >> ~/.ssh/authorized_keys"
+   ```
+
+### Windows
+
+There are guides on how to do that on Windows, such as this one: https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-windows
+
 ## Blocking firewall ports
 
 Most ports on your Kuri are blocked by an `iptables` firewall by default.
