@@ -33,6 +33,8 @@ Through bluetooth the phone looks for Kuri and, if more than one is found, will 
 
 Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.
 
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png)
+
 ## Troubleshooting wifi
 If Kuri connects but complains that it can't talk to the internet, please just try connecting again.
 
@@ -49,11 +51,11 @@ If that still fails, try doing a
 [Manual factory reset](https://helpcenter.heykuri.com/hc/en-us/articles/360001548488-Manual-factory-reset),
 and then try setup again.
 
-
 ## Connecting to Kuri again
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png)
 
 After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.  
+
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png)
 
 If your app gets stuck here, it may be because your Kuri needs to update
 to the newest Kuri software version.
@@ -70,7 +72,15 @@ To get your Kuri to update separately from using the app, take him to
 a network without restrictions, leave him on and charging on the dock,
 and he should attempt to auto-update every hour, 15 minutes after the hour.
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png)
+If he starts successfully updating, the power light should go from solid to
+blinking.  It will stay blinking while the update is downloading / installing.
+When that is finished (somewhere between about 5 and 30 minutes later),
+Kuri will automatically reboot.  The power light should eventually turn solid
+again (and Kuri should make his startup chime noise).
+
+Once Kuri has updated successfully to the newest software release, he will
+stop checking for new updates (since there won't be any further releases
+after the current one).  
 
 ## Finding Kuri's hostname
 Kuri's hostname is based upon the serial number of the robot which is printed on the box as well as on the bottom of the robot.  The hostname is built with a base `kuri-0000` with the addition of the last numbers and letters from the serial number.
