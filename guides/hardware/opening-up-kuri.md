@@ -1,8 +1,10 @@
+---
 layout: guide
 title: Opening Up Kuri's Torso
 category: hardware
 tags:
 - disassembly
+---
 
 ## Goal
 Remove Kuri's front shell so that you can get at her main board.
