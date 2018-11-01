@@ -91,6 +91,12 @@ Kuri's hostname is based upon the serial number of the robot which is printed on
 
 For example, if Kuri's serial number is `KR118160000abc`, the hostname is `kuri-0000abc`.
 
+The exception is some (but not all) robots that start with 'KR01744', which had a different
+serial number scheme (don't ask).  If you have one such, take the last numbers from the
+serial number and convert that number to hexadecimal.  So, for serial number `KR017440000149`,
+for instance, the hostname is actually kuri-00095.  (If you have one such robot,
+just try both hostnames.)
+
 During the onboarding process, the searching for robots step only returns one result since only one Kuri is around.  This should be your Kuri and it will report the hostname of the robot. 
 
 ## Finding Kuri's IP address
