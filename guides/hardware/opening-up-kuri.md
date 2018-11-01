@@ -23,8 +23,8 @@ front.  Also remove the screw holding the speaker grill on, then slide
 the speaker grill upwards to remove it.  Now unscrew the screw on the side
 closest to Kuri's front that was underneath the speaker grill.
 
-## Removing Kuri's front shell
-Kuri's front shells (both the white top and the black bottom shells) are
+## Removing Kuri's front torso shells
+Kuri's front torso shells (both the white top and the black bottom shells) are
 only held on by snap-fit.  Put Kuri on the ground, facing you, and grab
 both top and bottom shells at once, on both sides.  Pull outwards and towards
 you, wiggling (and deforming slightly) the plates to release all the
@@ -44,3 +44,8 @@ of interest: one is the serial debug port, which you can use with a
 custom serial cable (see the ``Making and using a debug cable`` guide).
 The other is the open USB 3.0 port, which you can use to hook up USB devices
 to Kuri's main computer.
+
+## Removing Kuri's rear torso shells
+Kuri's rear torso shells can be removed in much the same way as the front shells--
+unscrew the rest of the screws under the arm plates, then grab the rear
+white and black shells and pull outwards and towards you.
