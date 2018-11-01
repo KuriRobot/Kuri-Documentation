@@ -2,47 +2,38 @@
 layout: reference
 title: gizmo
 category: node
+package: gizmo
 tags: 
-- ${tag}
-- ${tag}
-- ${tag}
+- launch
 ---
 
 ## Description
-${description}
+Gizmo is not a ROS node.  It is the top level executable that starts the ROS master as well 
+as all of the other nodes that control Kuri.
 
-## Dependencies
-${dependencies, if any}
+Gizmo dynamically creates the launch configuration using a proprietary ROS launch wrapper
+called pylaunch.  Some nodes configurations can be edited because they have their own include
+file, but some node configurations cannot be changed because their configuration is hard-coded
+in python.
 
-## Action API
-### Action Subscribed Topics
-``${topic}``  
-``${topic}``  
+For example, the ROS beat detection is launched via `rosbeat.launch` in the ros_beat package
 
-### Action Published Topics
-``${topic}``  
-``${topic}``  
+```
+def ros_beat_launch():
+    return pl.Include('ros_beat', 'rosbeat.launch')
 
-## Subscribed Topics
-``${topic}``  
-``${topic}``  
-``${topic}``  
+```
 
-## Published Topics
-``${topic}``  
-``${topic}``  
+This allows rosbeat to be configured by editing the launch file.
 
-## Services
-``${service}``  
-``${service}``  
+Other nodes are hard-coded.  For example, oort (lifelong mapping) does not have a launch
+file and has a hard-coded launch_prefix:
 
-## Service Calls
-``${service}``  
-``${service}``  
-
-## Parameters
-``${parameter}``  
-``${parameter}``  
-
-## Launch File
-``gizmo.launch``  
+```
+    c = []
+    c.append(pl.Node('oort', 'oort_ros', 'oort_ros_mapping',
+                     launch_prefix="nice -n 10",
+                     remaps=[('scan', map_topic)],
+                     respawn=True,
+                     respawn_delay=10))
+```
