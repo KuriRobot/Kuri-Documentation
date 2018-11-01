@@ -61,7 +61,8 @@ If your app gets stuck here, it may be because your Kuri needs to update
 to the newest Kuri software version.
 
 ## Kuri software update
-The app should trigger Kuri to
+If your Kuri is not on the newest software version (which is the case for most
+new / newly-refurbished Kuris), the app should trigger Kuri to
 query the update server and update his software at this point (which can take from
 several minutes to about half an hour, depending on the speed of your connection),
 but sometimes this attempt fails, especially if the wifi network that Kuri
@@ -77,6 +78,9 @@ blinking.  It will stay blinking while the update is downloading / installing.
 When that is finished (somewhere between about 5 and 30 minutes later),
 Kuri will automatically reboot.  The power light should eventually turn solid
 again (and Kuri should make his startup chime noise).
+
+Note that only the newest software release allows you to ssh into your Kuri;
+ssh is turned off in older software releases.
 
 Once Kuri has updated successfully to the newest software release, he will
 stop checking for new updates (since there won't be any further releases
