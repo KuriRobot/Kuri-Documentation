@@ -13,23 +13,23 @@ The goal of this guide is to allow you to connect to Kuri for the first time.
 Connecting Kuri to WiFi happens during the onboarding process through the app.  During the process you are asked to enter your WiFi credentials so that the app can send the information to Kuri through BlueTooth.
 
 The first step is to create an account through the OSRF hosted cloud or run Kuri on the local network only.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132348.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132348.png)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132402.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132402.png)
 
 The next few steps guide you through turning Kuri on and setting up the dock properly.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132835.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132835.png)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132851.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132851.png)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132858.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132858.png)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132904.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132904.png)
 
 Through bluetooth the phone looks for Kuri and, if more than one is found, will allow you to select the Kuri to connect to.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132937.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132937.png)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132946.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132946.png)
 
 Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.
 
@@ -51,7 +51,7 @@ and then try setup again.
 
 
 ## Connecting to Kuri again
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png)
 
 After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.  
 
@@ -70,7 +70,7 @@ To get your Kuri to update separately from using the app, take him to
 a network without restrictions, leave him on and charging on the dock,
 and he should attempt to auto-update every hour, 15 minutes after the hour.
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png | width=100)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png)
 
 ## Finding Kuri's hostname
 Kuri's hostname is based upon the serial number of the robot which is printed on the box as well as on the bottom of the robot.  The hostname is built with a base `kuri-0000` with the addition of the last numbers and letters from the serial number.
