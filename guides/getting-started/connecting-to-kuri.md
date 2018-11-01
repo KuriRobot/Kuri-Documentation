@@ -13,31 +13,64 @@ The goal of this guide is to allow you to connect to Kuri for the first time.
 Connecting Kuri to WiFi happens during the onboarding process through the app.  During the process you are asked to enter your WiFi credentials so that the app can send the information to Kuri through BlueTooth.
 
 The first step is to create an account through the OSRF hosted cloud or run Kuri on the local network only.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132348.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132348.png | width=100)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132402.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132402.png | width=100)
 
 The next few steps guide you through turning Kuri on and setting up the dock properly.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132835.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132835.png | width=100)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132851.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132851.png | width=100)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132858.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132858.png | width=100)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132904.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132904.png | width=100)
 
 Through bluetooth the phone looks for Kuri and, if more than one is found, will allow you to select the Kuri to connect to.
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132937.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132937.png | width=100)
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-132946.png)
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-132946.png | width=100)
 
-Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.  If Kuri connects but complains that it can't talk to the internet, please just try connecting again.
+Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png)
+## Troubleshooting wifi
+If Kuri connects but complains that it can't talk to the internet, please just try connecting again.
 
-After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.
+If Kuri does not connect at all, wait until Kuri makes
+the startup chime (the power button light should go from flashing blue to solid
+blue, or if he is on the dock and charging, from flashing amber to solid amber,
+and Kuri should emit a pleasant chime around that time), then try again
+(up to 10 times or so--unfortunately, this part got a bit flaky during the hasty
+conversion to mini-cloud/no-cloud).
 
-![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png)
+If wifi still will not connect, try re-starting setup and trying again.
+
+If that still fails, try doing a
+[Manual factory reset](https://helpcenter.heykuri.com/hc/en-us/articles/360001548488-Manual-factory-reset),
+and then try setup again.
+
+
+## Connecting to Kuri again
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png | width=100)
+
+After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.  
+
+If your app gets stuck here, it may be because your Kuri needs to update
+to the newest Kuri software version.
+
+## Kuri software update
+The app should trigger Kuri to
+query the update server and update his software at this point (which can take from
+several minutes to about half an hour, depending on the speed of your connection),
+but sometimes this attempt fails, especially if the wifi network that Kuri
+is on has an annoying firewall / network configuration that prevents
+computer-to-computer connections, or blocks MQTT messages from getting through.  
+
+To get your Kuri to update separately from using the app, take him to
+a network without restrictions, leave him on and charging on the dock,
+and he should attempt to auto-update every hour, 15 minutes after the hour.
+
+![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png | width=100)
 
 ## Finding Kuri's hostname
 Kuri's hostname is based upon the serial number of the robot which is printed on the box as well as on the bottom of the robot.  The hostname is built with a base `kuri-0000` with the addition of the last numbers and letters from the serial number.
@@ -97,6 +130,23 @@ mayfield@kuri-0000abc:~$
 ```
 
 At this point you are now within the home folder of the mayfield user on Kuri.
+
+## Troubleshooting SSH
+If you cannot SSH into your Kuri, first try using the IP address instead of the hostname
+(using the IP address from the example above, that would look like this):  
+```bash
+host:~$ ssh mayfield@192.168.1.100
+```  
+If that fails, your Kuri may need a software update.  Follow the instructions above,
+under the section ``Kuri software update``.  
+
+If your Kuri's software has
+already updated, and SSH is still failing, try doing a
+[Manual factory reset](https://helpcenter.heykuri.com/hc/en-us/articles/360001548488-Manual-factory-reset),
+and then run setup again to re-establish Kuri's wifi connection.  
+
+If that still fails, the only recourse left is to open Kuri up and connect
+a serial debug cable.  See ``Making and using a debug cable`` for details.
 
 ## Setting up passwordless SSH
 Passwordless SSH is a method to allow users to connect to a remote machine without typing in the password each time.  This method of connecting to a remote host is more secure since the security keys are harder to break than a username/password combination.  The following steps generate an RSA key and set up Kuri to accept the key as authentication rather than using the password.  Users need the hostname and username/password pair for Kuri to properly set up the connection.
