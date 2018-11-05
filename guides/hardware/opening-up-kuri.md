@@ -30,11 +30,13 @@ Kuri's front torso shells (both the white top and the black bottom shells) are
 only held on by snap-fit.  Put Kuri on the ground, facing you, and grab
 both top and bottom shells at once, on both sides.  Pull outwards and towards
 you, wiggling (and deforming slightly) the plates to release all the
-snap-fit attachments.  Be careful with the connecting cables as you pull
-the shells off.
+snap-fit attachments.  
+> WARNING: Be careful with the cables that connect the two halves as you pull
+the shells off.  
 
 ## Detaching cables
-Detach all the cables between the shells and Kuri's torso, noting carefully
+Detach all the cables between the shells and Kuri's torso.  
+> WARNING: Take careful note of
 the original orientation of the microphone cables (the microphones are the
 things on the other side of the four tiny holes around the neck), since
 those are easy to accidentally re-connect backwards.  Note also how the one
