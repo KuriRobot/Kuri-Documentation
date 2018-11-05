@@ -31,18 +31,71 @@ Through bluetooth the phone looks for Kuri and, if more than one is found, will 
 
 ![](/assets/images/getting-started/Screenshot_Kuri_20181008-132946.png)
 
-Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.  If Kuri connects but complains that it can't talk to the internet, please just try connecting again.
+Once connected to your Kuri through bluetooth, the WiFi connection page lets you send the WiFi credentials to Kuri so that he too can be online.
 
 ![](/assets/images/getting-started/Screenshot_Kuri_20181008-133033.png)
 
-After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.
+## Troubleshooting wifi
+If Kuri connects but complains that it can't talk to the internet, please just try connecting again.
+
+If Kuri does not connect at all, wait until Kuri makes
+the startup chime (the power button light should go from flashing blue to solid
+blue, or if he is on the dock and charging, from flashing amber to solid amber,
+and Kuri should emit a pleasant chime around that time), then try again
+(up to 10 times or so--unfortunately, this part got a bit flaky during the hasty
+conversion to mini-cloud/no-cloud).
+
+If wifi still will not connect, try re-starting setup and trying again.
+
+If that still fails, try doing a
+[Manual factory reset](https://helpcenter.heykuri.com/hc/en-us/articles/360001548488-Manual-factory-reset),
+and then try setup again.
+
+## Connecting to Kuri again
+
+After this is completed, the app connects to Kuri so that the rest of setup can be finished.  These steps include creating a map of the house, and learning to control him through the app.  
 
 ![](/assets/images/getting-started/Screenshot_Kuri_20181008-133104.png)
+
+If your app gets stuck here, it may be because your Kuri needs to update
+to the newest Kuri software version.
+
+## Kuri software update
+If your Kuri is not on the newest software version (which is the case for most
+new / newly-refurbished Kuris), the app should trigger Kuri to
+query the update server and update his software at this point (which can take from
+several minutes to about half an hour, depending on the speed of your connection),
+but sometimes this attempt fails, especially if the wifi network that Kuri
+is on has an annoying firewall / network configuration that prevents
+computer-to-computer connections, or blocks MQTT messages from getting through.  
+
+To get your Kuri to update separately from using the app, take him to
+a network without restrictions, leave him on and charging on the dock,
+and he should attempt to auto-update every hour, 15 minutes after the hour.
+
+If he starts successfully updating, the power light should go from solid to
+blinking.  It will stay blinking while the update is downloading / installing.
+When that is finished (somewhere between about 5 and 30 minutes later),
+Kuri will automatically reboot.  The power light should eventually turn solid
+again (and Kuri should make his startup chime noise).
+
+Note that only the newest software release allows you to ssh into your Kuri;
+ssh is turned off in older software releases.
+
+Once Kuri has updated successfully to the newest software release, he will
+stop checking for new updates (since there won't be any further releases
+after the current one).  
 
 ## Finding Kuri's hostname
 Kuri's hostname is based upon the serial number of the robot which is printed on the box as well as on the bottom of the robot.  The hostname is built with a base `kuri-0000` with the addition of the last numbers and letters from the serial number.
 
 For example, if Kuri's serial number is `KR118160000abc`, the hostname is `kuri-0000abc`.
+
+The exception is some (but not all) robots that start with 'KR01744', which had a different
+serial number scheme (don't ask).  If you have one such, take the last numbers from the
+serial number and convert that number to hexadecimal.  So, for serial number `KR017440000149`,
+for instance, the hostname is actually kuri-00095.  (If you have one such robot,
+just try both hostnames.)
 
 During the onboarding process, the searching for robots step only returns one result since only one Kuri is around.  This should be your Kuri and it will report the hostname of the robot. 
 
@@ -97,6 +150,23 @@ mayfield@kuri-0000abc:~$
 ```
 
 At this point you are now within the home folder of the mayfield user on Kuri.
+
+## Troubleshooting SSH
+If you cannot SSH into your Kuri, first try using the IP address instead of the hostname
+(using the IP address from the example above, that would look like this):  
+```bash
+host:~$ ssh mayfield@192.168.1.100
+```  
+If that fails, your Kuri may need a software update.  Follow the instructions above,
+under the section ``Kuri software update``.  
+
+If your Kuri's software has
+already updated, and SSH is still failing, try doing a
+[Manual factory reset](https://helpcenter.heykuri.com/hc/en-us/articles/360001548488-Manual-factory-reset),
+and then run setup again to re-establish Kuri's wifi connection.  
+
+If that still fails, the only recourse left is to open Kuri up and connect
+a serial debug cable.  See ``Making and using a debug cable`` for details.
 
 ## Setting up passwordless SSH
 Passwordless SSH is a method to allow users to connect to a remote machine without typing in the password each time.  This method of connecting to a remote host is more secure since the security keys are harder to break than a username/password combination.  The following steps generate an RSA key and set up Kuri to accept the key as authentication rather than using the password.  Users need the hostname and username/password pair for Kuri to properly set up the connection.
