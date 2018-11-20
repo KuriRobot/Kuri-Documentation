@@ -19,7 +19,7 @@ The factory-installed MicroSD card which Kuri uses to store moments can hold abo
 
 ### Steps to access and replace Kuri’s SD Card:
 
-1. Make sure Kuri is on, then turn her off by holding down the power button on the back for 5 seconds until you hear Kuri going to sleep. Release the power button. The power button light will pulse. When it stops pulsing, the robot is off. Press the power button again to turn Kuri back on . Then turn her back on again. This way you have the most recent backup of the robot and don’t lose any data that is still on the existing MicroSD card.
+1. Make sure Kuri is on, then turn her off by holding down the power button on the back for 5 seconds until you hear Kuri going to sleep. Release the power button. The power button light will pulse. When it stops pulsing, the robot is off.  This way you have the most recent backup of the robot and don’t lose any data that is still on the existing MicroSD card.  Press the power button again to turn Kuri back on. 
 2. Once Kuri is back on, turn her off completely by flipping her over and flipping the battery switch on her bottom plate.
 3. Make sure you have a Phillips 0 screwdriver handy. Keep Kuri on the side – either on a pillow, padding or your lap – and remove the 8 screws that you can find on her bottom plate. We recommend putting the screws in a safe spot as they are tiny and can easily get lost.
 4. Once you’ve removed the bottom plate, you will find two rubber bands that keep the battery in place. Take these rubber bands off and pull the battery away, but don’t let the battery drop onto the floor and don’t disconnect it.
