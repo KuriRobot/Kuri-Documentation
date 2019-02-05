@@ -56,11 +56,11 @@ The following has been tested with recent versions of Firefox and Chrome.
 
 1. checkout the code:
    ```
-   git clone https://github.com/KuriRobot/documentation
+   git clone https://github.com/KuriRobot/kuri-documentation
    ```
 2. run the local server
    ```
-   cd documentation/samples/webrtc
+   cd kuri-documentation/examples/webrtc
    python3 -m http.server
    ```
 3. open a browser window and point it to `http://localhost:8000`
