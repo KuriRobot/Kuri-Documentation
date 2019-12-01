@@ -30,8 +30,10 @@ robot; the Kuri companion app will walk you through the onboarding process, and
 instructions are also available in this repository under the “Getting Started” 
 section. 
 
-The mobile app for iOS and/or Android can be found at https://heykuri.com/app      
-![Kuri App QR Code](/assets/images/qr-kuri-app.png)
+iOS | Android
+--- | ---
+[App Store](https://apps.apple.com/us/app/kuri-robot/id1276278179) | [Google Play](https://play.google.com/store/apps/details?id=com.mayfieldrobotics.kuri.enterprise.master)
+![Kuri iOS App QR Code](/assets/images/qr-kuri-app-ios.png)| ![Kuri Android App QR Code](/assets/images/qr-kuri-app-android.png)
 
 After onboarding your Kuri, check out the 
 [Getting Started](/guides/getting-started) section of this repository for 
